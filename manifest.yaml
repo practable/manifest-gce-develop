@@ -52,42 +52,62 @@ descriptions:
     name: Pendulum 00 (Everyone)
     type: slot
     short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
   d-sl-everyone-pend01:
     name: Pendulum 01 (Everyone)
     type: slot
     short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
   d-sl-everyone-trus00:
     name: Truss 00 (Everyone)
     type: slot
     short: A six-member truss with linear actuator and strain gauges
+    image: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/thumb.png 
   d-sl-everyone-trus01:
     name: Truss 01 (Everyone)
     type: slot
     short: A six-member truss with linear actuator and strain gauges
+    image: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/thumb.png 
   d-sl-engdes1-lab-pend00:
     name: Pendulum 00 (EngDes1 Lab)
     type: slot
     short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
   d-sl-engdes1-lab-pend01:
     name: Pendulum 01 (EngDes1 Lab)
     type: slot
     short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
   d-sl-engdes1-lab-spin30:
     name: Spinner 30 (A) (EngDes1 Lab)
     type: slot
     short: A PID-controlled brushed motor with Weight A
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
   d-sl-engdes1-lab-spin31:
     name: Spinner 31 (B) (EngDes1 Lab)
     type: slot
     short: A PID-controlled brushed motor with Weight B
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png 
   d-sl-engdes1-lab-spin32:
     name: Spinner 32 (C) (EngDes1 Lab)
     type: slot
     short: A PID-controlled brushed motor with Weight C
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png 
   d-sl-engdes1-lab-spin33:
     name: Spinner 33 (D) (EngDes1 Lab)
     type: slot
     short: A PID-controlled brushed motor with Weight D
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png 
   d-ui-pend-student:
     name: Pendulum (Student)
     type: ui

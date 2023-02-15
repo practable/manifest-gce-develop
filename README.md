@@ -1,6 +1,18 @@
 # manifest-gce-develop
 Manifest for the gce-develop system (dev.practable.io)
 
+## Pre-requisites
+
+Install yamllint to be able to use our (slightly-tuned) check script `./check.sh`
+```
+sudo apt-get install yamllint
+```
+
+We've disabled checks on 
+
+- line length (some descriptions are long)
+- spaces after colons (lining up times in the windows helps sanity checking)
+
 ## Naming scheme
 
 ### Type codes
