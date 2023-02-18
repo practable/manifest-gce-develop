@@ -111,7 +111,9 @@ descriptions:
   d-ui-pend-student:
     name: Pendulum (Student)
     type: ui
-    short: Pendulum UI for student use    
+    short: Pendulum UI for student use
+    image: https://dev.practable.io/static/images/booking/ui/penduino-default-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/ui/penduino-default-1.0/thumb.png 
   d-ui-spin-student:
     name: Spinner (Student)
     type: ui
@@ -155,6 +157,8 @@ groups:
 policies:
   p-everyone-pend:
     description: d-p-everyone-pend
+    enforce_allow_start_in_past: true
+    allow_start_in_past_within: 5m
     display_guides:
       - 5mFor20m
       - 15mFor1h
@@ -163,6 +167,8 @@ policies:
       - sl-everyone-pend01
   p-everyone-trus:
     description: d-p-everyone-trus
+    enforce_allow_start_in_past: true
+    allow_start_in_past_within: 5m
     display_guides:
       - 5mFor20m
       - 15mFor1h
@@ -171,6 +177,8 @@ policies:
       - sl-everyone-trus01
   p-engdes1-lab-pend:
     description: d-p-engdes1-lab-pend
+    enforce_allow_start_in_past: true
+    allow_start_in_past_within: 5m
     display_guides:
       - 1hFor2h
     slots:
@@ -178,6 +186,8 @@ policies:
       - sl-engdes1-lab-pend01
   p-engdes1-lab-spin:
     description: d-p-engdes1-lab-spin
+    enforce_allow_start_in_past: true
+    allow_start_in_past_within: 5m
     display_guides:
       - 1hFor2h
     slots:
@@ -315,19 +325,19 @@ streams:
 uis:
   ui-pend-student:
     description: d-ui-pend-student
-    url: https://static.practable.io/ui/penduino-1.0/?streams={{streams}}&exp={{exp}}
+    url: https://dev.practable.io/static/ui/penduino-1.0/?streams={{streams}}&exp={{exp}}
     streams_required:
       - st-data
       - st-video
   ui-spin-student:
     description: d-ui-spin-student
-    url: https://static.practable.io/ui/spinner-1.0/?v=0&streams={{streams}}&exp={{exp}}
+    url: https://dev.practable.io/static/ui/spinner-1.0/?v=0&streams={{streams}}&exp={{exp}}
     streams_required:
       - st-data
       - st-video
   ui-trus-student:
     description: d-ui-trus-student
-    url: https://static.practable.io/ui/truss-1.0/?streams={{streams}}&exp={{exp}}
+    url: https://dev.practable.io/static/ui/truss-1.0/?streams={{streams}}&exp={{exp}}
     streams_required:
       - st-data
       - st-video    
