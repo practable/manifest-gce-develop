@@ -12,6 +12,10 @@ descriptions:
     name: Pendulums (Everyone)
     type: policy
     short: Pendulums for everyone
+  d-p-everyone-spin:
+    name: Spinners (Everyone)
+    type: policy
+    short: Spinners for everyone
   d-p-everyone-trus:
     name: Trusses (Everyone)
     type: policy
@@ -44,6 +48,38 @@ descriptions:
     name: Spinner (Weight D)
     type: resource
     short: PID-controlled spinner with weight D
+  d-r-spinner-weight-e:
+    name: Spinner (Weight E)
+    type: resource
+    short: PID-controlled spinner with weight E
+  d-r-spinner-weight-f:
+    name: Spinner (Weight F)
+    type: resource
+    short: PID-controlled spinner with weight F
+  d-r-spinner-weight-g:
+    name: Spinner (Weight G)
+    type: resource
+    short: PID-controlled spinner with weight G
+  d-r-spinner-weight-h:
+    name: Spinner (Weight H)
+    type: resource
+    short: PID-controlled spinner with weight H
+  d-r-spinner-weight-i:
+    name: Spinner (Weight I)
+    type: resource
+    short: PID-controlled spinner with weight I
+  d-r-spinner-weight-j:
+    name: Spinner (Weight J)
+    type: resource
+    short: PID-controlled spinner with weight J
+  d-r-spinner-weight-k:
+    name: Spinner (Weight K)
+    type: resource
+    short: PID-controlled spinner with weight K
+  d-r-spinner-weight-l:
+    name: Spinner (Weight L)
+    type: resource
+    short: PID-controlled spinner with weight L
   d-r-truss-medium:
     name: Truss (Medium)
     type: resource
@@ -59,7 +95,97 @@ descriptions:
     type: slot
     short: An electromagnetically-driven simple pendulum
     image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend02:
+    name: Pendulum 02 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend03:
+    name: Pendulum 03 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend04:
+    name: Pendulum 04 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
+  d-sl-everyone-pend05:
+    name: Pendulum 05 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-spin30:
+    name: Spinner 30 (A) (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with Weight A
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin31:
+    name: Spinner 31 (B) (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with Weight B
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin32:
+    name: Spinner 32 (C) (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with Weight C
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin33:
+    name: Spinner 30 (D) (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with Weight D
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin34:
+    name: Spinner 30 (E) (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with Weight E
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin35:
+    name: Spinner 35 (F) (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with Weight F
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin36:
+    name: Spinner 30 (G) (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with Weight G
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin37:
+    name: Spinner 37 (H) (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with Weight H
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
+  d-sl-everyone-spin38:
+    name: Spinner 38 (I) (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with Weight I
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin39:
+    name: Spinner 39 (J) (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with Weight J
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin40:
+    name: Spinner 40 (K) (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with Weight K
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
   d-sl-everyone-trus00:
     name: Truss 00 (Everyone)
     type: slot
@@ -71,7 +197,7 @@ descriptions:
     type: slot
     short: A six-member truss with linear actuator and strain gauges
     image: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/thumb.png 
+    thumb: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/thumb.png    
   d-sl-engdes1-lab-pend00:
     name: Pendulum 00 (EngDes1 Lab)
     type: slot
@@ -83,7 +209,7 @@ descriptions:
     type: slot
     short: An electromagnetically-driven simple pendulum
     image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
   d-sl-engdes1-lab-spin30:
     name: Spinner 30 (A) (EngDes1 Lab)
     type: slot
@@ -148,7 +274,7 @@ groups:
     description: d-g-everyone
     policies:
       - p-everyone-pend
-      - p-everyone-trus
+      - p-everyone-spin
   g-engdes1-lab:
     description: d-g-engdes1-lab
     policies:
@@ -164,7 +290,29 @@ policies:
       - 15mFor1h
     slots:
       - sl-everyone-pend00
-      - sl-everyone-pend01
+      - sl-everyone-pend02
+      - sl-everyone-pend03
+      - sl-everyone-pend04
+      - sl-everyone-pend05
+  p-everyone-spin:
+    description: d-p-everyone-spin
+    enforce_allow_start_in_past: true
+    allow_start_in_past_within: 5m
+    display_guides:
+      - 5mFor20m
+      - 15mFor1h
+    slots:
+      - sl-everyone-spin30
+      - sl-everyone-spin31
+      - sl-everyone-spin32
+      - sl-everyone-spin33
+      - sl-everyone-spin34
+      - sl-everyone-spin35
+      - sl-everyone-spin36
+      - sl-everyone-spin37
+      - sl-everyone-spin38
+      - sl-everyone-spin39
+      - sl-everyone-spin40
   p-everyone-trus:
     description: d-p-everyone-trus
     enforce_allow_start_in_past: true
@@ -208,6 +356,30 @@ resources:
       - st-data
       - st-video
     topic_stub: pend01
+  r-pend02:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend02
+  r-pend03:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend03
+  r-pend04:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend04
+  r-pend05:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend05    
   r-spin30:
     description: d-r-spinner-weight-a
     streams:
@@ -227,11 +399,53 @@ resources:
       - st-video
     topic_stub: spin32
   r-spin33:
-    description: d-r-spinner-weight-d
+    description: d-r-spinner-weight-e
     streams:
       - st-data
       - st-video
     topic_stub: spin33
+  r-spin34:
+    description: d-r-spinner-weight-f
+    streams:
+      - st-data
+      - st-video
+    topic_stub: spin34
+  r-spin35:
+    description: d-r-spinner-weight-g
+    streams:
+      - st-data
+      - st-video
+    topic_stub: spin35
+  r-spin36:
+    description: d-r-spinner-weight-h
+    streams:
+      - st-data
+      - st-video
+    topic_stub: spin36
+  r-spin37:
+    description: d-r-spinner-weight-i
+    streams:
+      - st-data
+      - st-video
+    topic_stub: spin37
+  r-spin38:
+    description: d-r-spinner-weight-j
+    streams:
+      - st-data
+      - st-video
+    topic_stub: spin38
+  r-spin39:
+    description: d-r-spinner-weight-k
+    streams:
+      - st-data
+      - st-video
+    topic_stub: spin39
+  r-spin40:
+    description: d-r-spinner-weight-l
+    streams:
+      - st-data
+      - st-video
+    topic_stub: spin40
   r-trus00:
     description: d-r-truss-medium
     streams:
@@ -258,6 +472,96 @@ slots:
     resource: r-pend01
     ui_set: us-pend-everyone
     window: w-pend-everyone
+  sl-everyone-pend02:
+    description: d-sl-everyone-pend02 
+    policy: p-everyone-pend
+    resource: r-pend02
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend03:
+    description: d-sl-everyone-pend03 
+    policy: p-everyone-pend
+    resource: r-pend03
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend04:
+    description: d-sl-everyone-pend04 
+    policy: p-everyone-pend
+    resource: r-pend04
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend05:
+    description: d-sl-everyone-pend05 
+    policy: p-everyone-pend
+    resource: r-pend05
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-spin30:
+    description: d-sl-everyone-spin30 
+    policy: p-everyone-spin 
+    resource: r-spin30
+    ui_set: us-spin-everyone
+    window: w-spin-everyone
+  sl-everyone-spin31:
+    description: d-sl-everyone-spin31 
+    policy: p-everyone-spin 
+    resource: r-spin31
+    ui_set: us-spin-everyone
+    window: w-spin-everyone
+  sl-everyone-spin32:
+    description: d-sl-everyone-spin32 
+    policy: p-everyone-spin 
+    resource: r-spin32
+    ui_set: us-spin-everyone
+    window: w-spin-everyone
+  sl-everyone-spin33:
+    description: d-sl-everyone-spin33 
+    policy: p-everyone-spin 
+    resource: r-spin33
+    ui_set: us-spin-everyone
+    window: w-spin-everyone
+  sl-everyone-spin34:
+    description: d-sl-everyone-spin34 
+    policy: p-everyone-spin 
+    resource: r-spin34
+    ui_set: us-spin-everyone
+    window: w-spin-everyone
+  sl-everyone-spin35:
+    description: d-sl-everyone-spin35 
+    policy: p-everyone-spin 
+    resource: r-spin35
+    ui_set: us-spin-everyone
+    window: w-spin-everyone
+  sl-everyone-spin36:
+    description: d-sl-everyone-spin36 
+    policy: p-everyone-spin 
+    resource: r-spin36
+    ui_set: us-spin-everyone
+    window: w-spin-everyone
+  sl-everyone-spin37:
+    description: d-sl-everyone-spin37 
+    policy: p-everyone-spin 
+    resource: r-spin37
+    ui_set: us-spin-everyone
+    window: w-spin-everyone
+  sl-everyone-spin38:
+    description: d-sl-everyone-spin38 
+    policy: p-everyone-spin 
+    resource: r-spin38
+    ui_set: us-spin-everyone
+    window: w-spin-everyone
+  sl-everyone-spin39:
+    description: d-sl-everyone-spin39 
+    policy: p-everyone-spin 
+    resource: r-spin39
+    ui_set: us-spin-everyone
+    window: w-spin-everyone
+  sl-everyone-spin40:
+    description: d-sl-everyone-spin40 
+    policy: p-everyone-spin 
+    resource: r-spin40
+    ui_set: us-spin-everyone
+    window: w-spin-everyone
   sl-everyone-trus00:
     description: d-sl-everyone-trus00 
     policy: p-everyone-trus
@@ -331,7 +635,7 @@ uis:
       - st-video
   ui-spin-student:
     description: d-ui-spin-student
-    url: https://dev.practable.io/static/ui/spinner-1.0/?v=0&streams={{streams}}&exp={{exp}}
+    url: https://dev.practable.io/static/ui/spinner-2.0/?v=0&streams={{streams}}&exp={{exp}}
     streams_required:
       - st-data
       - st-video
