@@ -299,7 +299,518 @@ descriptions:
     type: slot
     short: An electromagnetically-driven simple pendulum
     image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png    
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+
+  d-sl-engdes1-lab-pend00:
+    name: Pendulum 00 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-engdes1-lab-pend01:
+    name: Pendulum 01 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend02:
+    name: Pendulum 02 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend03:
+    name: Pendulum 03 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend04:
+    name: Pendulum 04 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
+  d-sl-engdes1-lab-pend05:
+    name: Pendulum 05 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend06:
+    name: Pendulum 06 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-engdes1-lab-pend07:
+    name: Pendulum 07 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend08:
+    name: Pendulum 08 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend09:
+    name: Pendulum 09 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend10:
+    name: Pendulum 10 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-engdes1-lab-pend11:
+    name: Pendulum 11 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend12:
+    name: Pendulum 12 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend13:
+    name: Pendulum 13 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend14:
+    name: Pendulum 14 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
+  d-sl-engdes1-lab-pend15:
+    name: Pendulum 15 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend16:
+    name: Pendulum 16 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-engdes1-lab-pend17:
+    name: Pendulum 17 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend18:
+    name: Pendulum 18 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend19:
+    name: Pendulum 19 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend20:
+    name: Pendulum 20 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-engdes1-lab-pend21:
+    name: Pendulum 21 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend22:
+    name: Pendulum 22 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend23:
+    name: Pendulum 23 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend24:
+    name: Pendulum 24 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
+  d-sl-engdes1-lab-pend25:
+    name: Pendulum 25 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend26:
+    name: Pendulum 26 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-engdes1-lab-pend27:
+    name: Pendulum 27 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend28:
+    name: Pendulum 28 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend29:
+    name: Pendulum 29 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend30:
+    name: Pendulmum 30 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-engdes1-lab-pend31:
+    name: Pendulum 31 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend32:
+    name: Pendulum 32 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend33:
+    name: Pendulum 33 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend34:
+    name: Pendulum 34 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
+  d-sl-engdes1-lab-pend35:
+    name: Pendulum 35 (Engdes1-Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+    
+  d-sl-engdes1-lab-spin30:
+    name: Spinner 30 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 68g disk of size ⌀:40mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin31:
+    name: Spinner 31 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with with 102g disk of size ⌀:40mm t:30mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin32:
+    name: Spinner 32 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 86g disk of size ⌀:45mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin33:
+    name: Spinner 33 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 64g disk of size ⌀:55mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin34:
+    name: Spinner 34 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 80g disk of size ⌀:50mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin35:
+    name: Spinner 35 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 106g disk of size ⌀:50mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin36:
+    name: Spinner 36 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 76g disk of size ⌀:60mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin37:
+    name: Spinner 37 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 96g disk of size ⌀:55mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
+  d-sl-engdes1-lab-spin38:
+    name: Spinner 38 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 133g disk of size ⌀:50mm t:25mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin39:
+    name: Spinner 39 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 90g disk of size ⌀:65mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+    
+  d-sl-engdes1-lab-spin40:
+    name: Spinner 40 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 128g disk of size ⌀:55mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin41:
+    name: Spinner 41 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 115g disk of size ⌀:60mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin42:
+    name: Spinner 42 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 68g disk of size ⌀:40mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin43:
+    name: Spinner 43 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 102g disk of size ⌀:40mm t:30mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin44:
+    name: Spinner 44 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 86g disk of size ⌀:45mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin45:
+    name: Spinner 45 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 64g disk of size ⌀:55mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin46:
+    name: Spinner 46 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 80g disk of size ⌀:50mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin47:
+    name: Spinner 47 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 106g disk of size ⌀:50mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
+  d-sl-engdes1-lab-spin48:
+    name: Spinner 48 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 76g disk of size ⌀:60mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin49:
+    name: Spinner 49 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 96g disk of size ⌀:55mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+
+  d-sl-engdes1-lab-spin50:
+    name: Spinner 50 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 133g disk of size ⌀:50mm t:25mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin51:
+    name: Spinner 51 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 90g disk of size ⌀:65mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin52:
+    name: Spinner 52 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 128g disk of size ⌀:55mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin53:
+    name: Spinner 53 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 115g disk of size ⌀:60mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin54:
+    name: Spinner 54 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 68g disk of size ⌀:40mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin55:
+    name: Spinner 55 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 102g disk of size ⌀:40mm t:30mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin56:
+    name: Spinner 56 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 86g disk of size ⌀:45mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin57:
+    name: Spinner 57 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 64g disk of size ⌀:55mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
+  d-sl-engdes1-lab-spin58:
+    name: Spinner 58 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 80g disk of size ⌀:50mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin59:
+    name: Spinner 59 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 106g disk of size ⌀:50mm t:20mm 
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
+
+  d-sl-engdes1-lab-spin60:
+    name: Spinner 60 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 76g disk of size ⌀:60mm t:10mm 
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin61:
+    name: Spinner 61 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 96g disk of size ⌀:55mm t:15mm 
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin62:
+    name: Spinner 62 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 133g disk of size ⌀:50mm t:25mm 
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin63:
+    name: Spinner 63 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 90g disk of size ⌀:65mm t:10mm 
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin64:
+    name: Spinner 64 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 128g disk of size ⌀:55mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin65:
+    name: Spinner 65 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 115g disk of size ⌀:60mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin66:
+    name: Spinner 66 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 68g disk of size ⌀:40mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin67:
+    name: Spinner 67 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 102g disk of size ⌀:40mm t:30mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
+  d-sl-engdes1-lab-spin68:
+    name: Spinner 68 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 86g disk of size ⌀:45mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin69:
+    name: Spinner 69 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 64g disk of size ⌀:55mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+
+  d-sl-engdes1-lab-spin70:
+    name: Spinner 70 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 80g disk of size ⌀:50mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin71:
+    name: Spinner 71 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 106g disk of size ⌀:50mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin72:
+    name: Spinner 72 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 76g disk of size ⌀:60mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin73:
+    name: Spinner 73 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 96g disk of size ⌀:55mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin74:
+    name: Spinner 74 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 133g disk of size ⌀:50mm t:25mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin75:
+    name: Spinner 75 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 90g disk of size ⌀:65mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin76:
+    name: Spinner 76 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 128g disk of size ⌀:55mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-engdes1-lab-spin77:
+    name: Spinner 77 (Engdes1-Lab)
+    type: slot
+    short: A PID-controlled brushed motor with 115g disk of size ⌀:60mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png     
+    
   d-sl-everyone-spin30:
     name: Spinner 30 (A) (Everyone)
     type: slot
@@ -378,42 +889,6 @@ descriptions:
     short: A six-member truss with linear actuator and strain gauges
     image: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/thumb.png    
-  d-sl-engdes1-lab-pend00:
-    name: Pendulum 00 (EngDes1 Lab)
-    type: slot
-    short: An electromagnetically-driven simple pendulum
-    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
-  d-sl-engdes1-lab-pend01:
-    name: Pendulum 01 (EngDes1 Lab)
-    type: slot
-    short: An electromagnetically-driven simple pendulum
-    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
-  d-sl-engdes1-lab-spin30:
-    name: Spinner 30 (A) (EngDes1 Lab)
-    type: slot
-    short: A PID-controlled brushed motor with Weight A
-    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
-  d-sl-engdes1-lab-spin31:
-    name: Spinner 31 (B) (EngDes1 Lab)
-    type: slot
-    short: A PID-controlled brushed motor with Weight B
-    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png 
-  d-sl-engdes1-lab-spin32:
-    name: Spinner 32 (C) (EngDes1 Lab)
-    type: slot
-    short: A PID-controlled brushed motor with Weight C
-    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png 
-  d-sl-engdes1-lab-spin33:
-    name: Spinner 33 (D) (EngDes1 Lab)
-    type: slot
-    short: A PID-controlled brushed motor with Weight D
-    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png 
   d-ui-pend-student:
     name: Pendulum (Student)
     type: ui
@@ -1143,42 +1618,252 @@ slots:
     resource: r-trus01
     ui_set: us-trus-everyone
     window: w-trus-everyone
+
   sl-engdes1-lab-pend00:
     description: d-sl-engdes1-lab-pend00 
-    policy: p-engdes1-lab-pend
+    policy: p-engdes1-lab-pend 
     resource: r-pend00
-    ui_set: us-pend-engdes1
-    window: w-pend-engdes1
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
   sl-engdes1-lab-pend01:
-    description: d-sl-engdes1-lab-pend01
+    description: d-sl-engdes1-lab-pend01 
     policy: p-engdes1-lab-pend
     resource: r-pend01
-    ui_set: us-pend-engdes1
-    window: w-pend-engdes1
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend02:
+    description: d-sl-engdes1-lab-pend02 
+    policy: p-engdes1-lab-pend
+    resource: r-pend02
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend03:
+    description: d-sl-engdes1-lab-pend03 
+    policy: p-engdes1-lab-pend
+    resource: r-pend03
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend04:
+    description: d-sl-engdes1-lab-pend04 
+    policy: p-engdes1-lab-pend
+    resource: r-pend04
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend05:
+    description: d-sl-engdes1-lab-pend05 
+    policy: p-engdes1-lab-pend
+    resource: r-pend05
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend06:
+    description: d-sl-engdes1-lab-pend06 
+    policy: p-engdes1-lab-pend
+    resource: r-pend06
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend07:
+    description: d-sl-engdes1-lab-pend07 
+    policy: p-engdes1-lab-pend
+    resource: r-pend07
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend08:
+    description: d-sl-engdes1-lab-pend08 
+    policy: p-engdes1-lab-pend
+    resource: r-pend08
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend09:
+    description: d-sl-engdes1-lab-pend09 
+    policy: p-engdes1-lab-pend
+    resource: r-pend09
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend10:
+    description: d-sl-engdes1-lab-pend10 
+    policy: p-engdes1-lab-pend 
+    resource: r-pend10
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend11:
+    description: d-sl-engdes1-lab-pend11 
+    policy: p-engdes1-lab-pend
+    resource: r-pend11
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend12:
+    description: d-sl-engdes1-lab-pend12 
+    policy: p-engdes1-lab-pend
+    resource: r-pend12
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend13:
+    description: d-sl-engdes1-lab-pend13 
+    policy: p-engdes1-lab-pend
+    resource: r-pend13
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend14:
+    description: d-sl-engdes1-lab-pend14 
+    policy: p-engdes1-lab-pend
+    resource: r-pend14
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend15:
+    description: d-sl-engdes1-lab-pend15 
+    policy: p-engdes1-lab-pend
+    resource: r-pend15
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend16:
+    description: d-sl-engdes1-lab-pend16 
+    policy: p-engdes1-lab-pend
+    resource: r-pend16
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend17:
+    description: d-sl-engdes1-lab-pend17 
+    policy: p-engdes1-lab-pend
+    resource: r-pend17
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend18:
+    description: d-sl-engdes1-lab-pend18 
+    policy: p-engdes1-lab-pend
+    resource: r-pend18
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend19:
+    description: d-sl-engdes1-lab-pend19 
+    policy: p-engdes1-lab-pend
+    resource: r-pend19
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend20:
+    description: d-sl-engdes1-lab-pend20 
+    policy: p-engdes1-lab-pend 
+    resource: r-pend20
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend21:
+    description: d-sl-engdes1-lab-pend21 
+    policy: p-engdes1-lab-pend
+    resource: r-pend21
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend22:
+    description: d-sl-engdes1-lab-pend22 
+    policy: p-engdes1-lab-pend
+    resource: r-pend22
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend23:
+    description: d-sl-engdes1-lab-pend23 
+    policy: p-engdes1-lab-pend
+    resource: r-pend23
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend24:
+    description: d-sl-engdes1-lab-pend24 
+    policy: p-engdes1-lab-pend
+    resource: r-pend24
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend25:
+    description: d-sl-engdes1-lab-pend25 
+    policy: p-engdes1-lab-pend
+    resource: r-pend25
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend26:
+    description: d-sl-engdes1-lab-pend26 
+    policy: p-engdes1-lab-pend
+    resource: r-pend26
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend27:
+    description: d-sl-engdes1-lab-pend27 
+    policy: p-engdes1-lab-pend
+    resource: r-pend27
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend28:
+    description: d-sl-engdes1-lab-pend28 
+    policy: p-engdes1-lab-pend
+    resource: r-pend28
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend29:
+    description: d-sl-engdes1-lab-pend29 
+    policy: p-engdes1-lab-pend
+    resource: r-pend29
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend30:
+    description: d-sl-engdes1-lab-pend30 
+    policy: p-engdes1-lab-pend 
+    resource: r-pend30
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend31:
+    description: d-sl-engdes1-lab-pend31 
+    policy: p-engdes1-lab-pend
+    resource: r-pend31
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend32:
+    description: d-sl-engdes1-lab-pend32 
+    policy: p-engdes1-lab-pend
+    resource: r-pend32
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend33:
+    description: d-sl-engdes1-lab-pend33 
+    policy: p-engdes1-lab-pend
+    resource: r-pend33
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend34:
+    description: d-sl-engdes1-lab-pend34 
+    policy: p-engdes1-lab-pend
+    resource: r-pend34
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend35:
+    description: d-sl-engdes1-lab-pend35 
+    policy: p-engdes1-lab-pend
+    resource: r-pend35
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+    
   sl-engdes1-lab-spin30:
     description: d-sl-engdes1-lab-spin30 
     policy: p-engdes1-lab-spin
     resource: r-spin30
-    ui_set: us-spin-engdes1
-    window: w-spin-engdes1
+    ui_set: us-spin-engdes1-lab
+    window: w-spin-engdes1-lab
   sl-engdes1-lab-spin31:
-    description: d-sl-engdes1-lab-spin31
+    description: d-sl-engdes1-lab-spin31 
     policy: p-engdes1-lab-spin
     resource: r-spin31
-    ui_set: us-spin-engdes1
-    window: w-spin-engdes1
+    ui_set: us-spin-engdes1-lab
+    window: w-spin-engdes1-lab
   sl-engdes1-lab-spin32:
     description: d-sl-engdes1-lab-spin32 
     policy: p-engdes1-lab-spin
     resource: r-spin32
-    ui_set: us-spin-engdes1
-    window: w-spin-engdes1
-  sl-engdes1-lab-spin33: 
+    ui_set: us-spin-engdes1-lab
+    window: w-spin-engdes1-lab
+  sl-engdes1-lab-spin33:
     description: d-sl-engdes1-lab-spin33 
     policy: p-engdes1-lab-spin
     resource: r-spin33
-    ui_set: us-spin-engdes1
-    window: w-spin-engdes1
+    ui_set: us-spin-engdes1-lab
+    window: w-spin-engdes1-lab
+
+
+#    TODO - add remaining slots!
+    
 streams:
   st-data:
     url: https://dev.practable.io/access
@@ -1230,9 +1915,15 @@ ui_sets:
   us-pend-engdes1:
     uis:
       - ui-pend-engdes1
+  us-pend-engdes1-lab:
+    uis:
+      - ui-pend-engdes1
   us-pend-everyone:
     uis:
       - ui-pend-student
+  us-spin-engdes1-lab:
+    uis:
+      - ui-spin-engdes1
   us-spin-engdes1:
     uis:
       - ui-spin-engdes1
@@ -1248,23 +1939,31 @@ windows:
       - start: 2023-02-04T00:00:00Z
         end: 2024-02-04T00:00:00Z
     denied:
-      - start: 2023-02-10T12:00:00Z
-        end:   2023-02-10T17:00:00Z
-      - start: 2023-02-11T12:00:00Z
-        end:   2023-02-11T17:00:00Z
-      - start: 2023-02-12T12:00:00Z
-        end:   2023-02-12T17:00:00Z
+      - start: 2023-02-24T10:00:00Z
+        end:   2023-02-24T12:00:00Z
+      - start: 2023-02-27T14:00:00Z
+        end:   2023-02-27T18:00:00Z
+      - start: 2023-02-28T14:00:00Z
+        end:   2023-02-28T18:00:00Z
+      - start: 2023-03-13T14:00:00Z
+        end:   2023-03-13T18:00:00Z
+      - start: 2023-03-19T14:00:00Z
+        end:   2023-03-19T18:00:00Z 
   w-spin-everyone:
     allowed:
       - start: 2023-02-04T00:00:00Z
         end: 2024-02-04T00:00:00Z
     denied:
-      - start: 2023-02-10T12:00:00Z
-        end:   2023-02-10T17:00:00Z
-      - start: 2023-02-11T12:00:00Z
-        end:   2023-02-11T17:00:00Z
-      - start: 2023-02-12T12:00:00Z
-        end:   2023-02-12T17:00:00Z
+      - start: 2023-02-24T10:00:00Z
+        end:   2023-02-24T12:00:00Z
+      - start: 2023-02-27T14:00:00Z
+        end:   2023-02-27T18:00:00Z
+      - start: 2023-02-28T14:00:00Z
+        end:   2023-02-28T18:00:00Z
+      - start: 2023-03-13T14:00:00Z
+        end:   2023-03-13T18:00:00Z
+      - start: 2023-03-19T14:00:00Z
+        end:   2023-03-19T18:00:00Z 
   w-trus-everyone:
     allowed:
       - start: 2023-02-04T00:00:00Z
@@ -1287,4 +1986,30 @@ windows:
         end:   2023-02-11T17:00:00Z
       - start: 2023-02-12T12:00:00Z
         end:   2023-02-12T17:00:00Z     
+    denied: []
+  w-pend-engdes1-lab:
+    allowed:
+      - start: 2023-02-24T10:00:00Z
+        end:   2023-02-24T12:00:00Z
+      - start: 2023-02-27T14:00:00Z
+        end:   2023-02-27T18:00:00Z
+      - start: 2023-02-28T14:00:00Z
+        end:   2023-02-28T18:00:00Z
+      - start: 2023-03-13T14:00:00Z
+        end:   2023-03-13T18:00:00Z
+      - start: 2023-03-19T14:00:00Z
+        end:   2023-03-19T18:00:00Z        
+    denied: []
+  w-spin-engdes1-lab:
+    allowed:
+      - start: 2023-02-24T10:00:00Z
+        end:   2023-02-24T12:00:00Z
+      - start: 2023-02-27T14:00:00Z
+        end:   2023-02-27T18:00:00Z
+      - start: 2023-02-28T14:00:00Z
+        end:   2023-02-28T18:00:00Z
+      - start: 2023-03-13T14:00:00Z
+        end:   2023-03-13T18:00:00Z
+      - start: 2023-03-19T14:00:00Z
+        end:   2023-03-19T18:00:00Z 
     denied: []
