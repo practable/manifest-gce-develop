@@ -1883,25 +1883,25 @@ streams:
 uis:
   ui-pend-engdes1:
     description: d-ui-pend-student
-    url: https://dev.practable.io/static/ui/penduino-1.0/?streams={{streams}}&exp={{exp}}}&course=engdes1
+    url: https://dev.practable.io/static/ui/penduino-1.0/?streams={{streams}}&exp={{exp}}&course=engdes1
     streams_required:
       - st-data
       - st-video
   ui-spin-engdes1:
     description: d-ui-spin-student
-    url: https://dev.practable.io/static/ui/spinner-2.0/?v=0&streams={{streams}}&exp={{exp}}}&course=engdes1
+    url: https://dev.practable.io/static/ui/spinner-2.0/?v=0&streams={{streams}}&exp={{exp}}&course=engdes1
     streams_required:
       - st-data
       - st-video
   ui-pend-student:
     description: d-ui-pend-student
-    url: https://dev.practable.io/static/ui/penduino-1.0/?streams={{streams}}&exp={{exp}}}&course=everyone
+    url: https://dev.practable.io/static/ui/penduino-1.0/?streams={{streams}}&exp={{exp}}&course=everyone
     streams_required:
       - st-data
       - st-video
   ui-spin-student:
     description: d-ui-spin-student
-    url: https://dev.practable.io/static/ui/spinner-2.0/?v=0&streams={{streams}}&exp={{exp}}}&course=everyone
+    url: https://dev.practable.io/static/ui/spinner-2.0/?v=0&streams={{streams}}&exp={{exp}}&course=everyone
     streams_required:
       - st-data
       - st-video
