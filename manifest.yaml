@@ -120,6 +120,186 @@ descriptions:
     short: An electromagnetically-driven simple pendulum
     image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend06:
+    name: Pendulum 06 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-everyone-pend07:
+    name: Pendulum 07 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend08:
+    name: Pendulum 08 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend09:
+    name: Pendulum 09 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend10:
+    name: Pendulum 10 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-everyone-pend11:
+    name: Pendulum 11 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend12:
+    name: Pendulum 12 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend13:
+    name: Pendulum 13 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend14:
+    name: Pendulum 14 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
+  d-sl-everyone-pend15:
+    name: Pendulum 15 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend16:
+    name: Pendulum 16 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-everyone-pend17:
+    name: Pendulum 17 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend18:
+    name: Pendulum 18 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend19:
+    name: Pendulum 19 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend20:
+    name: Pendulum 20 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-everyone-pend21:
+    name: Pendulum 21 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend22:
+    name: Pendulum 22 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend23:
+    name: Pendulum 23 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend24:
+    name: Pendulum 24 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
+  d-sl-everyone-pend25:
+    name: Pendulum 25 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend26:
+    name: Pendulum 26 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-everyone-pend27:
+    name: Pendulum 27 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend28:
+    name: Pendulum 28 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend29:
+    name: Pendulum 29 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend30:
+    name: Pendulmum 30 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-everyone-pend31:
+    name: Pendulum 31 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend32:
+    name: Pendulum 32 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend33:
+    name: Pendulum 33 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-everyone-pend34:
+    name: Pendulum 34 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
+  d-sl-everyone-pend35:
+    name: Pendulum 35 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png    
   d-sl-everyone-spin30:
     name: Spinner 30 (A) (Everyone)
     type: slot
@@ -294,6 +474,33 @@ policies:
       - sl-everyone-pend03
       - sl-everyone-pend04
       - sl-everyone-pend05
+      - sl-everyone-pend06
+      - sl-everyone-pend07
+      - sl-everyone-pend08
+      - sl-everyone-pend09
+      - sl-everyone-pend10
+      - sl-everyone-pend11
+      - sl-everyone-pend12
+      - sl-everyone-pend13
+      - sl-everyone-pend14
+      - sl-everyone-pend15
+      - sl-everyone-pend16
+      - sl-everyone-pend17
+      - sl-everyone-pend18
+      - sl-everyone-pend19
+      - sl-everyone-pend20
+      - sl-everyone-pend21
+      - sl-everyone-pend22
+      - sl-everyone-pend23
+      - sl-everyone-pend25
+      - sl-everyone-pend26
+      - sl-everyone-pend27
+      - sl-everyone-pend28
+      - sl-everyone-pend29
+      - sl-everyone-pend31
+      - sl-everyone-pend33
+      - sl-everyone-pend34
+      - sl-everyone-pend35
   p-everyone-spin:
     description: d-p-everyone-spin
     enforce_allow_start_in_past: true
@@ -379,7 +586,190 @@ resources:
     streams:
       - st-data
       - st-video
-    topic_stub: pend05    
+    topic_stub: pend05
+  r-pend06:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend06
+  r-pend07:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend07
+  r-pend08:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend08
+  r-pend09:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend09
+
+
+  r-pend10:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend10
+  r-pend11:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend11
+  r-pend12:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend12
+  r-pend13:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend13
+  r-pend14:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend14
+  r-pend15:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend15
+  r-pend16:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend16
+  r-pend17:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend17
+  r-pend18:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend18
+  r-pend19:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend19
+
+  r-pend20:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend20
+  r-pend21:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend21
+  r-pend22:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend22
+  r-pend23:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend23
+  r-pend24:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend24
+  r-pend25:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend25
+  r-pend26:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend26
+  r-pend27:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend27
+  r-pend28:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend28
+  r-pend29:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend29
+  r-pend30:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend30
+  r-pend31:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend31
+  r-pend32:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend32
+  r-pend33:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend33
+  r-pend34:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend34
+  r-pend35:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+    topic_stub: pend35    
   r-spin30:
     description: d-r-spinner-weight-a
     streams:
@@ -458,7 +848,6 @@ resources:
       - st-data
       - st-video
     topic_stub: trus01
-    
 slots:
   sl-everyone-pend00:
     description: d-sl-everyone-pend00 
@@ -494,6 +883,186 @@ slots:
     description: d-sl-everyone-pend05 
     policy: p-everyone-pend
     resource: r-pend05
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend06:
+    description: d-sl-everyone-pend06 
+    policy: p-everyone-pend
+    resource: r-pend06
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend07:
+    description: d-sl-everyone-pend07 
+    policy: p-everyone-pend
+    resource: r-pend07
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend08:
+    description: d-sl-everyone-pend08 
+    policy: p-everyone-pend
+    resource: r-pend08
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend09:
+    description: d-sl-everyone-pend09 
+    policy: p-everyone-pend
+    resource: r-pend09
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend10:
+    description: d-sl-everyone-pend10 
+    policy: p-everyone-pend 
+    resource: r-pend10
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend11:
+    description: d-sl-everyone-pend11 
+    policy: p-everyone-pend
+    resource: r-pend11
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend12:
+    description: d-sl-everyone-pend12 
+    policy: p-everyone-pend
+    resource: r-pend12
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend13:
+    description: d-sl-everyone-pend13 
+    policy: p-everyone-pend
+    resource: r-pend13
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend14:
+    description: d-sl-everyone-pend14 
+    policy: p-everyone-pend
+    resource: r-pend14
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend15:
+    description: d-sl-everyone-pend15 
+    policy: p-everyone-pend
+    resource: r-pend15
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend16:
+    description: d-sl-everyone-pend16 
+    policy: p-everyone-pend
+    resource: r-pend16
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend17:
+    description: d-sl-everyone-pend17 
+    policy: p-everyone-pend
+    resource: r-pend17
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend18:
+    description: d-sl-everyone-pend18 
+    policy: p-everyone-pend
+    resource: r-pend18
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend19:
+    description: d-sl-everyone-pend19 
+    policy: p-everyone-pend
+    resource: r-pend19
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend20:
+    description: d-sl-everyone-pend20 
+    policy: p-everyone-pend 
+    resource: r-pend20
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend21:
+    description: d-sl-everyone-pend21 
+    policy: p-everyone-pend
+    resource: r-pend21
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend22:
+    description: d-sl-everyone-pend22 
+    policy: p-everyone-pend
+    resource: r-pend22
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend23:
+    description: d-sl-everyone-pend23 
+    policy: p-everyone-pend
+    resource: r-pend23
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend24:
+    description: d-sl-everyone-pend24 
+    policy: p-everyone-pend
+    resource: r-pend24
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend25:
+    description: d-sl-everyone-pend25 
+    policy: p-everyone-pend
+    resource: r-pend25
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend26:
+    description: d-sl-everyone-pend26 
+    policy: p-everyone-pend
+    resource: r-pend26
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend27:
+    description: d-sl-everyone-pend27 
+    policy: p-everyone-pend
+    resource: r-pend27
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend28:
+    description: d-sl-everyone-pend28 
+    policy: p-everyone-pend
+    resource: r-pend28
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend29:
+    description: d-sl-everyone-pend29 
+    policy: p-everyone-pend
+    resource: r-pend29
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend30:
+    description: d-sl-everyone-pend30 
+    policy: p-everyone-pend 
+    resource: r-pend30
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend31:
+    description: d-sl-everyone-pend31 
+    policy: p-everyone-pend
+    resource: r-pend31
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend32:
+    description: d-sl-everyone-pend32 
+    policy: p-everyone-pend
+    resource: r-pend32
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend33:
+    description: d-sl-everyone-pend33 
+    policy: p-everyone-pend
+    resource: r-pend33
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend34:
+    description: d-sl-everyone-pend34 
+    policy: p-everyone-pend
+    resource: r-pend34
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend35:
+    description: d-sl-everyone-pend35 
+    policy: p-everyone-pend
+    resource: r-pend35
     ui_set: us-pend-everyone
     window: w-pend-everyone
   sl-everyone-spin30:
