@@ -12,10 +12,11 @@ export BOOK_CLIENT_HOST=dev.practable.io
 export BOOK_CLIENT_BASE_PATH=/book/api/v1
 export BOOK_CLIENT_FORMAT=YAML
 
-book manifest check manifest.yaml
-if [ $? -eq 0 ]; then
-   book manifest replace manifest.yaml
-else
-    echo "Manifest check returned errors, did not upload"
+c=$(./check.sh | wc -l)
+if ! [ $c -eq 0 ]; then
+        echo "Manifest check returned errors, did not upload"
+		./check.sh
+		exit 1
 fi
 
+book manifest replace manifest.yaml
