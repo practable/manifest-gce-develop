@@ -3324,14 +3324,14 @@ uis:
       - log
   ui-pend-student:
     description: d-ui-pend-student
-    url: https://dev.practable.io/static/ui/penduino-1.0/?streams={{streams}}&exp={{exp}}&course=everyone
+    url: https://dev.practable.io/static/ui/penduino-1.0/?streams={{streams}}&exp={{exp}}&course=engdes1
     streams_required:
       - st-data
       - st-video
       - log
   ui-spin-student:
     description: d-ui-spin-student
-    url: https://dev.practable.io/static/ui/spinner-2.0/?v=0&streams={{streams}}&exp={{exp}}&course=everyone
+    url: https://dev.practable.io/static/ui/spinner-2.0/?v=0&streams={{streams}}&exp={{exp}}&course=engdes1
     streams_required:
       - st-data
       - st-video
