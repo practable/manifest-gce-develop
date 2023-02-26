@@ -523,8 +523,8 @@ descriptions:
     short: An electromagnetically-driven simple pendulum
     image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
-  d-sl-everyone-pend25:
-    name: Pendulum 25 (Everyone)
+  d-sl-southampton-pend25:
+    name: Pendulum 25 (Southampton)
     type: slot
     short: An electromagnetically-driven simple pendulum
     image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
@@ -589,7 +589,18 @@ descriptions:
     short: An electromagnetically-driven simple pendulum
     image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
-
+  d-sl-everyone-pend36:
+    name: Pendulum 36 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
+  d-sl-everyone-pend37:
+    name: Pendulum 37 (Everyone)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
   d-sl-engdes1-lab-pend00:
     name: Pendulum 00 (EngDes1 Lab)
     type: slot
@@ -805,7 +816,19 @@ descriptions:
     type: slot
     short: An electromagnetically-driven simple pendulum
     image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-engdes1-lab-pend36:
+    name: Pendulum 36 (EngDes1 Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
+  d-sl-engdes1-lab-pend37:
+    name: Pendulum 37 (EngDes1 Lab)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
   d-sl-engdes1-lab-spin30:
     name: Spinner 30 (EngDes1 Lab)
     type: slot
@@ -1494,7 +1517,6 @@ policies:
       - sl-everyone-pend21
       - sl-everyone-pend22
       - sl-everyone-pend23
-      - sl-everyone-pend25
       - sl-everyone-pend26
       - sl-everyone-pend27
       - sl-everyone-pend28
@@ -1503,6 +1525,8 @@ policies:
       - sl-everyone-pend33
       - sl-everyone-pend34
       - sl-everyone-pend35
+      - sl-everyone-pend36
+      - sl-everyone-pend37      
   p-everyone-spin:
     description: d-p-everyone-spin
     enforce_allow_start_in_past: true
@@ -1543,7 +1567,6 @@ policies:
       - sl-everyone-spin66
       - sl-everyone-spin67       
       - sl-everyone-spin68
-      - sl-everyone-spin69
       - sl-everyone-spin70
       - sl-everyone-spin71
       - sl-everyone-spin72
@@ -1592,7 +1615,6 @@ policies:
       - sl-engdes1-lab-pend21
       - sl-engdes1-lab-pend22
       - sl-engdes1-lab-pend23
-      - sl-engdes1-lab-pend25
       - sl-engdes1-lab-pend26
       - sl-engdes1-lab-pend27
       - sl-engdes1-lab-pend28
@@ -1600,7 +1622,10 @@ policies:
       - sl-engdes1-lab-pend31
       - sl-engdes1-lab-pend33
       - sl-engdes1-lab-pend34
-      - sl-engdes1-lab-pend35      
+      - sl-engdes1-lab-pend35
+      - sl-engdes1-lab-pend36
+      - sl-engdes1-lab-pend37
+      
   p-engdes1-lab-spin:
     description: d-p-engdes1-lab-spin
     enforce_allow_start_in_past: true
@@ -1892,7 +1917,21 @@ resources:
       - st-data
       - st-video
       - log
-    topic_stub: pend35    
+    topic_stub: pend35
+  r-pend36:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+      - log
+    topic_stub: pend36
+  r-pend37:
+    description: d-r-pendulum-standard
+    streams:
+      - st-data
+      - st-video
+      - log
+    topic_stub: pend37
   r-spin30:
     description: d-r-spin30
     streams:
@@ -2395,12 +2434,6 @@ slots:
     resource: r-pend24
     ui_set: us-pend-everyone
     window: w-pend-everyone
-  sl-everyone-pend25:
-    description: d-sl-everyone-pend25 
-    policy: p-everyone-pend
-    resource: r-pend25
-    ui_set: us-pend-everyone
-    window: w-pend-everyone
   sl-everyone-pend26:
     description: d-sl-everyone-pend26 
     policy: p-everyone-pend
@@ -2461,6 +2494,18 @@ slots:
     resource: r-pend35
     ui_set: us-pend-everyone
     window: w-pend-everyone
+  sl-everyone-pend36:
+    description: d-sl-everyone-pend36 
+    policy: p-everyone-pend
+    resource: r-pend36
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-everyone-pend37:
+    description: d-sl-everyone-pend37 
+    policy: p-everyone-pend
+    resource: r-pend37
+    ui_set: us-pend-everyone
+    window: w-pend-everyone    
   sl-everyone-spin30:
     description: d-sl-everyone-spin30 
     policy: p-everyone-spin 
@@ -2976,6 +3021,18 @@ slots:
     description: d-sl-engdes1-lab-pend35 
     policy: p-engdes1-lab-pend
     resource: r-pend35
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend36:
+    description: d-sl-engdes1-lab-pend36 
+    policy: p-engdes1-lab-pend
+    resource: r-pend36
+    ui_set: us-pend-engdes1-lab
+    window: w-pend-engdes1-lab
+  sl-engdes1-lab-pend37:
+    description: d-sl-engdes1-lab-pend37 
+    policy: p-engdes1-lab-pend
+    resource: r-pend37
     ui_set: us-pend-engdes1-lab
     window: w-pend-engdes1-lab
     
