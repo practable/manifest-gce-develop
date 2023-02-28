@@ -8,6 +8,14 @@ descriptions:
     name: Engineering Design 1 Laboratories
     type: group
     short: Access to experiments during scheduled Engineering Design 1 laboratory sessions
+  d-g-quarantine:
+    name: Quarantined experiments
+    type: group
+    short: Access to experiments that have been quarantined for troubleshooting, or regular maintenance
+  d-p-quarantine:
+    name: Quarantined experiments
+    type: group
+    short: Access to experiments that have been quarantined for troubleshooting, or regular maintenance    
   d-p-everyone-pend:
     name: Pendulums (Everyone)
     type: policy
@@ -1475,6 +1483,10 @@ display_guides:
     max_slots: 10
     label: 1 hour    
 groups:
+  g-quarantine:
+    description: d-g-quarantine
+    policies:
+      - p-quarantine
   g-everyone:
     description: d-g-everyone
     policies:
@@ -1486,6 +1498,19 @@ groups:
       - p-engdes1-lab-pend
       - p-engdes1-lab-spin
 policies:
+  p-quarantine:
+    description: d-p-quarantine
+    enforce_allow_start_in_past: true
+    allow_start_in_past_within: 5m
+    isplay_guides:
+      - 5mFor20m
+      - 15mFor1h
+    slots:
+      - sl-everyone-pend18
+      - sl-everyone-pend19
+      - sl-engdes1-lab-pend18
+      - sl-engdes1-lab-pend19
+      
   p-everyone-pend:
     description: d-p-everyone-pend
     enforce_allow_start_in_past: true
@@ -1511,8 +1536,6 @@ policies:
       - sl-everyone-pend15
       - sl-everyone-pend16
       - sl-everyone-pend17
-      - sl-everyone-pend18
-      - sl-everyone-pend19
       - sl-everyone-pend20
       - sl-everyone-pend21
       - sl-everyone-pend22
@@ -1609,8 +1632,6 @@ policies:
       - sl-engdes1-lab-pend15
       - sl-engdes1-lab-pend16
       - sl-engdes1-lab-pend17
-      - sl-engdes1-lab-pend18
-      - sl-engdes1-lab-pend19
       - sl-engdes1-lab-pend20
       - sl-engdes1-lab-pend21
       - sl-engdes1-lab-pend22
