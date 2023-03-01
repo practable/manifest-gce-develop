@@ -1502,14 +1502,14 @@ policies:
     description: d-p-quarantine
     enforce_allow_start_in_past: true
     allow_start_in_past_within: 5m
-    isplay_guides:
+    display_guides:
       - 5mFor20m
       - 15mFor1h
     slots:
-      - sl-everyone-pend18
-      - sl-everyone-pend19
-      - sl-engdes1-lab-pend18
-      - sl-engdes1-lab-pend19
+      - sl-q-everyone-pend18
+      - sl-q-everyone-pend19
+      - sl-q-engdes1-lab-pend18
+      - sl-q-engdes1-lab-pend19
       
   p-everyone-pend:
     description: d-p-everyone-pend
@@ -2413,15 +2413,15 @@ slots:
     resource: r-pend17
     ui_set: us-pend-everyone
     window: w-pend-everyone
-  sl-everyone-pend18:
+  sl-q-everyone-pend18:
     description: d-sl-everyone-pend18 
-    policy: p-everyone-pend
+    policy: p-quarantine
     resource: r-pend18
     ui_set: us-pend-everyone
     window: w-pend-everyone
-  sl-everyone-pend19:
+  sl-q-everyone-pend19:
     description: d-sl-everyone-pend19 
-    policy: p-everyone-pend
+    policy: p-quarantine
     resource: r-pend19
     ui_set: us-pend-everyone
     window: w-pend-everyone
@@ -2936,15 +2936,15 @@ slots:
     resource: r-pend17
     ui_set: us-pend-engdes1-lab
     window: w-pend-engdes1-lab
-  sl-engdes1-lab-pend18:
+  sl-q-engdes1-lab-pend18:
     description: d-sl-engdes1-lab-pend18 
-    policy: p-engdes1-lab-pend
+    policy: p-quarantine
     resource: r-pend18
     ui_set: us-pend-engdes1-lab
     window: w-pend-engdes1-lab
-  sl-engdes1-lab-pend19:
+  sl-q-engdes1-lab-pend19:
     description: d-sl-engdes1-lab-pend19 
-    policy: p-engdes1-lab-pend
+    policy: p-quarantine
     resource: r-pend19
     ui_set: us-pend-engdes1-lab
     window: w-pend-engdes1-lab
