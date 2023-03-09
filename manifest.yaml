@@ -4553,21 +4553,21 @@ uis:
     url: https://dev.practable.io/static/ui/analytics-spin-1.0/?v=0&streams={{streams}}&exp={{exp}}&course=engdes1
     streams_required:
       - log
-  ui-pend-student:
+  ui-pend-everyone:
     description: d-ui-pend-student
-    url: https://dev.practable.io/static/ui/penduino-1.0/?streams={{streams}}&exp={{exp}}&course=engdes1
+    url: https://dev.practable.io/static/ui/penduino-1.0/?streams={{streams}}&exp={{exp}}&course=everyone
     streams_required:
       - st-data
       - st-video
       - log
-  ui-spin-student:
+  ui-spin-everyone:
     description: d-ui-spin-student
-    url: https://dev.practable.io/static/ui/spinner-2.0/?v=0&streams={{streams}}&exp={{exp}}&course=engdes1
+    url: https://dev.practable.io/static/ui/spinner-2.0/?v=0&streams={{streams}}&exp={{exp}}&course=everyone
     streams_required:
       - st-data
       - st-video
       - log
-  ui-trus-student:
+  ui-trus-everyone:
     description: d-ui-trus-student
     url: https://dev.practable.io/static/ui/truss-1.0/?streams={{streams}}&exp={{exp}}&course=everyone
     streams_required:
@@ -4585,7 +4585,7 @@ ui_sets:
       - ui-pend-analytics-engdes1
   us-pend-everyone:
     uis:
-      - ui-pend-student
+      - ui-pend-everyone
   us-spin-engdes1-lab:
     uis:
       - ui-spin-engdes1
@@ -4596,10 +4596,10 @@ ui_sets:
       - ui-spin-analytics-engdes1      
   us-spin-everyone:
     uis:
-      - ui-spin-student
+      - ui-spin-everyone
   us-trus-everyone:
     uis:
-      - ui-trus-student 
+      - ui-trus-everyone 
 windows:
   w-pend-everyone:
     allowed:
