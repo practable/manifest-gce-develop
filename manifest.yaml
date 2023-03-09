@@ -1980,6 +1980,8 @@ descriptions:
     name: Spinner (Student)
     type: ui
     short: Spinner UI for student use
+    image: https://dev.practable.io/static/images/booking/ui/spinner-default-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/ui/spinner-default-2.0/thumb.png  
   d-ui-trus-student:
     name: Truss (Student)
     type: ui
