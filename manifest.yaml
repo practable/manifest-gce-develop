@@ -2495,7 +2495,7 @@ display_guides:
     book_ahead: 20m
     duration: 5m
     max_slots: 10
-    label: 5 min 
+    label: 05 min 
   15mFor1h:
     book_ahead: 1h
     duration: 15m
@@ -2525,12 +2525,12 @@ display_guides:
     book_ahead: 2h
     duration: 1h
     max_slots: 2
-    label: 1 hour
+    label: 60 min
   1hFor8h:
     book_ahead: 4h
     duration: 1h
     max_slots: 8
-    label: 1 hour    
+    label: 60 min    
 groups:
   g-quarantine:
     description: d-g-quarantine
