@@ -2551,7 +2551,7 @@ groups:
     policies:
       - p-engdes1-lab-pend
       - p-engdes1-lab-spin
-  g-opendays:
+  g-opendays-y4dU0k:
     description: d-g-opendays
     policies:
       - p-opendays-pend
