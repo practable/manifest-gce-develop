@@ -1,5 +1,7 @@
 ---
 descriptions:
+
+  # Group descriptions
   d-g-everyone:
     name: Everyone
     type: group
@@ -12,10 +14,16 @@ descriptions:
     name: Engineering Design 1 Laboratories
     type: group
     short: Access to experiments during scheduled Engineering Design 1 laboratory sessions
+  d-g-opendays:
+    name: Open Days
+    type: group
+    short: Access to experiments during Open Days
   d-g-quarantine:
     name: Quarantined experiments
     type: group
     short: Access to experiments that have been quarantined for troubleshooting, or regular maintenance
+
+  # Policy descriptions  
   d-p-quarantine:
     name: Quarantined experiments
     type: group
@@ -48,64 +56,30 @@ descriptions:
     name: Spinners (EngDes1)
     type: policy
     short: Spinners for Engineering Design 1 
+  d-p-opendays-pend:
+    name: Pendulums (Open Days)
+    type: policy
+    short: Pendulums for Open Days
+  d-p-opendays-spin:
+    name: Spinners (open Days)
+    type: policy
+    short: Spinners for Open Days
     
+  # Resource Descriptions
+
+  # Pendulum resources
   d-r-pendulum-standard:
     name: Pendulum (Std)
     type: resource
     short: An electromagnetically-driven pendulum (standard configuration)
-  d-r-spinner-weight-a:
-    name: Spinner (Weight A)
-    type: resource
-    short: PID-controlled spinner with weight A
-  d-r-spinner-weight-b:
-    name: Spinner (Weight B)
-    type: resource
-    short: PID-controlled spinner with weight B
-  d-r-spinner-weight-c:
-    name: Spinner (Weight C)
-    type: resource
-    short: PID-controlled spinner with weight C
-  d-r-spinner-weight-d:
-    name: Spinner (Weight D)
-    type: resource
-    short: PID-controlled spinner with weight D
-  d-r-spinner-weight-e:
-    name: Spinner (Weight E)
-    type: resource
-    short: PID-controlled spinner with weight E
-  d-r-spinner-weight-f:
-    name: Spinner (Weight F)
-    type: resource
-    short: PID-controlled spinner with weight F
-  d-r-spinner-weight-g:
-    name: Spinner (Weight G)
-    type: resource
-    short: PID-controlled spinner with weight G
-  d-r-spinner-weight-h:
-    name: Spinner (Weight H)
-    type: resource
-    short: PID-controlled spinner with weight H
-  d-r-spinner-weight-i:
-    name: Spinner (Weight I)
-    type: resource
-    short: PID-controlled spinner with weight I
-  d-r-spinner-weight-j:
-    name: Spinner (Weight J)
-    type: resource
-    short: PID-controlled spinner with weight J
-  d-r-spinner-weight-k:
-    name: Spinner (Weight K)
-    type: resource
-    short: PID-controlled spinner with weight K
-  d-r-spinner-weight-l:
-    name: Spinner (Weight L)
-    type: resource
-    short: PID-controlled spinner with weight L
+
+  # Truss resources
   d-r-truss-medium:
     name: Truss (Medium)
     type: resource
     short: Medium size truss with linear actuator and strain gauges
 
+  # Spinner resources
   d-r-spin30:
     name: Spinner 30
     type: slot
@@ -393,7 +367,11 @@ descriptions:
     type: slot
     short: A PID-controlled brushed motor with 115g disk of size ⌀:60mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png     
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+
+  # Slot descriptiosn
+
+  # Everyone pendulums
   d-sl-everyone-pend00:
     name: Pendulum 00 (Everyone)
     type: slot
@@ -623,6 +601,311 @@ descriptions:
     image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
 
+  # Everyone Spinners  
+  d-sl-everyone-spin30:
+    name: Spinner 30 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 68g disk of size ⌀:40mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin31:
+    name: Spinner 31 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with with 102g disk of size ⌀:40mm t:30mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin32:
+    name: Spinner 32 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 86g disk of size ⌀:45mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin33:
+    name: Spinner 33 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 64g disk of size ⌀:55mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin34:
+    name: Spinner 34 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 80g disk of size ⌀:50mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin35:
+    name: Spinner 35 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 106g disk of size ⌀:50mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin36:
+    name: Spinner 36 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 76g disk of size ⌀:60mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin37:
+    name: Spinner 37 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 96g disk of size ⌀:55mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
+  d-sl-everyone-spin38:
+    name: Spinner 38 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 133g disk of size ⌀:50mm t:25mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin39:
+    name: Spinner 39 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 90g disk of size ⌀:65mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin40:
+    name: Spinner 40 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 128g disk of size ⌀:55mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin41:
+    name: Spinner 41 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 115g disk of size ⌀:60mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin42:
+    name: Spinner 42 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 68g disk of size ⌀:40mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin43:
+    name: Spinner 43 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 102g disk of size ⌀:40mm t:30mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin44:
+    name: Spinner 44 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 86g disk of size ⌀:45mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin45:
+    name: Spinner 45 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 64g disk of size ⌀:55mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin46:
+    name: Spinner 46 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 80g disk of size ⌀:50mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin47:
+    name: Spinner 47 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 106g disk of size ⌀:50mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
+  d-sl-everyone-spin48:
+    name: Spinner 48 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 76g disk of size ⌀:60mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin49:
+    name: Spinner 49 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 96g disk of size ⌀:55mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin50:
+    name: Spinner 50 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 133g disk of size ⌀:50mm t:25mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin51:
+    name: Spinner 51 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 90g disk of size ⌀:65mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin52:
+    name: Spinner 52 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 128g disk of size ⌀:55mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin53:
+    name: Spinner 53 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 115g disk of size ⌀:60mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin54:
+    name: Spinner 54 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 68g disk of size ⌀:40mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin55:
+    name: Spinner 55 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 102g disk of size ⌀:40mm t:30mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin56:
+    name: Spinner 56 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 86g disk of size ⌀:45mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin57:
+    name: Spinner 57 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 64g disk of size ⌀:55mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
+  d-sl-everyone-spin58:
+    name: Spinner 58 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 80g disk of size ⌀:50mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin59:
+    name: Spinner 59 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 106g disk of size ⌀:50mm t:20mm 
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
+  d-sl-everyone-spin60:
+    name: Spinner 60 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 76g disk of size ⌀:60mm t:10mm 
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin61:
+    name: Spinner 61 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 96g disk of size ⌀:55mm t:15mm 
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin62:
+    name: Spinner 62 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 133g disk of size ⌀:50mm t:25mm 
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin63:
+    name: Spinner 63 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 90g disk of size ⌀:65mm t:10mm 
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin64:
+    name: Spinner 64 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 128g disk of size ⌀:55mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin65:
+    name: Spinner 65 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 115g disk of size ⌀:60mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin66:
+    name: Spinner 66 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 68g disk of size ⌀:40mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin67:
+    name: Spinner 67 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 102g disk of size ⌀:40mm t:30mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
+  d-sl-everyone-spin68:
+    name: Spinner 68 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 86g disk of size ⌀:45mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin69:
+    name: Spinner 69 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 64g disk of size ⌀:55mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin70:
+    name: Spinner 70 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 80g disk of size ⌀:50mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin71:
+    name: Spinner 71 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 106g disk of size ⌀:50mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin72:
+    name: Spinner 72 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 76g disk of size ⌀:60mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin73:
+    name: Spinner 73 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 96g disk of size ⌀:55mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin74:
+    name: Spinner 74 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 133g disk of size ⌀:50mm t:25mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin75:
+    name: Spinner 75 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 90g disk of size ⌀:65mm t:10mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin76:
+    name: Spinner 76 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 128g disk of size ⌀:55mm t:20mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+  d-sl-everyone-spin77:
+    name: Spinner 77 (Everyone)
+    type: slot
+    short: A PID-controlled brushed motor with 115g disk of size ⌀:60mm t:15mm
+    image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
+    
+  # Everyone trusses  
+  d-sl-everyone-trus00:
+    name: Truss 00 (Everyone)
+    type: slot
+    short: A six-member truss with linear actuator and strain gauges
+    image: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/thumb.png 
+  d-sl-everyone-trus01:
+    name: Truss 01 (Everyone)
+    type: slot
+    short: A six-member truss with linear actuator and strain gauges
+    image: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/thumb.png
+    
+  # Engineering Design Laboratories Pendulums  
   d-sl-engdes1-lab-pend00:
     name: Pendulum 00 (EngDes1 Lab)
     type: slot
@@ -851,6 +1134,8 @@ descriptions:
     short: An electromagnetically-driven simple pendulum
     image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+
+  # Engineering Design Laboratories Spinners  
   d-sl-engdes1-lab-spin30:
     name: Spinner 30 (EngDes1 Lab)
     type: slot
@@ -972,7 +1257,6 @@ descriptions:
     short: A PID-controlled brushed motor with 96g disk of size ⌀:55mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-
   d-sl-engdes1-lab-spin50:
     name: Spinner 50 (EngDes1 Lab)
     type: slot
@@ -1094,7 +1378,6 @@ descriptions:
     short: A PID-controlled brushed motor with 64g disk of size ⌀:55mm t:10mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-
   d-sl-engdes1-lab-spin70:
     name: Spinner 70 (EngDes1 Lab)
     type: slot
@@ -1142,8 +1425,9 @@ descriptions:
     type: slot
     short: A PID-controlled brushed motor with 115g disk of size ⌀:60mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png     
+    thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
 
+  # Engineering Design - self led pendulums  
   d-sl-engdes1-pend00:
     name: Pendulum 00 (EngDes1)
     type: slot
@@ -1372,6 +1656,8 @@ descriptions:
     short: An electromagnetically-driven simple pendulum
     image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+
+  # Engineering Design 1 : self-led spinners  
   d-sl-engdes1-spin30:
     name: Spinner 30 (EngDes1)
     type: slot
@@ -1432,7 +1718,6 @@ descriptions:
     short: A PID-controlled brushed motor with 90g disk of size ⌀:65mm t:10mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-    
   d-sl-engdes1-spin40:
     name: Spinner 40 (EngDes1)
     type: slot
@@ -1493,7 +1778,6 @@ descriptions:
     short: A PID-controlled brushed motor with 96g disk of size ⌀:55mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-
   d-sl-engdes1-spin50:
     name: Spinner 50 (EngDes1)
     type: slot
@@ -1554,7 +1838,6 @@ descriptions:
     short: A PID-controlled brushed motor with 106g disk of size ⌀:50mm t:20mm 
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
-
   d-sl-engdes1-spin60:
     name: Spinner 60 (EngDes1)
     type: slot
@@ -1615,7 +1898,6 @@ descriptions:
     short: A PID-controlled brushed motor with 64g disk of size ⌀:55mm t:10mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-
   d-sl-engdes1-spin70:
     name: Spinner 70 (EngDes1)
     type: slot
@@ -1664,312 +1946,522 @@ descriptions:
     short: A PID-controlled brushed motor with 115g disk of size ⌀:60mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png     
-    
-  d-sl-everyone-spin30:
-    name: Spinner 30 (Everyone)
+
+  # Open Days pendulums    
+  d-sl-opendays-pend00:
+    name: Pendulum 00 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-opendays-pend01:
+    name: Pendulum 01 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend02:
+    name: Pendulum 02 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend03:
+    name: Pendulum 03 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend04:
+    name: Pendulum 04 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
+  d-sl-opendays-pend05:
+    name: Pendulum 05 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend06:
+    name: Pendulum 06 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-opendays-pend07:
+    name: Pendulum 07 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend08:
+    name: Pendulum 08 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend09:
+    name: Pendulum 09 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend10:
+    name: Pendulum 10 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-opendays-pend11:
+    name: Pendulum 11 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend12:
+    name: Pendulum 12 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend13:
+    name: Pendulum 13 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend14:
+    name: Pendulum 14 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
+  d-sl-opendays-pend15:
+    name: Pendulum 15 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend16:
+    name: Pendulum 16 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-opendays-pend17:
+    name: Pendulum 17 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend18:
+    name: Pendulum 18 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend19:
+    name: Pendulum 19 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend20:
+    name: Pendulum 20 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-opendays-pend21:
+    name: Pendulum 21 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend22:
+    name: Pendulum 22 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend23:
+    name: Pendulum 23 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend24:
+    name: Pendulum 24 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
+  d-sl-opendays-pend26:
+    name: Pendulum 26 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-opendays-pend27:
+    name: Pendulum 27 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend28:
+    name: Pendulum 28 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend29:
+    name: Pendulum 29 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend30:
+    name: Pendulmum 30 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png 
+  d-sl-opendays-pend31:
+    name: Pendulum 31 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend32:
+    name: Pendulum 32 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend33:
+    name: Pendulum 33 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend34:
+    name: Pendulum 34 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
+  d-sl-opendays-pend35:
+    name: Pendulum 35 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+  d-sl-opendays-pend36:
+    name: Pendulum 36 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png     
+  d-sl-opendays-pend37:
+    name: Pendulum 37 (Open Days)
+    type: slot
+    short: An electromagnetically-driven simple pendulum
+    image: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/image.png
+    thumb: https://dev.practable.io/static/images/booking/slots/penduino-real-1.0/thumb.png
+
+  # Open Days spinners  
+  d-sl-opendays-spin30:
+    name: Spinner 30 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 68g disk of size ⌀:40mm t:20mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin31:
-    name: Spinner 31 (Everyone)
+  d-sl-opendays-spin31:
+    name: Spinner 31 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with with 102g disk of size ⌀:40mm t:30mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin32:
-    name: Spinner 32 (Everyone)
+  d-sl-opendays-spin32:
+    name: Spinner 32 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 86g disk of size ⌀:45mm t:20mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin33:
-    name: Spinner 33 (Everyone)
+  d-sl-opendays-spin33:
+    name: Spinner 33 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 64g disk of size ⌀:55mm t:10mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin34:
-    name: Spinner 34 (Everyone)
+  d-sl-opendays-spin34:
+    name: Spinner 34 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 80g disk of size ⌀:50mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin35:
-    name: Spinner 35 (Everyone)
+  d-sl-opendays-spin35:
+    name: Spinner 35 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 106g disk of size ⌀:50mm t:20mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin36:
-    name: Spinner 36 (Everyone)
+  d-sl-opendays-spin36:
+    name: Spinner 36 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 76g disk of size ⌀:60mm t:10mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin37:
-    name: Spinner 37 (Everyone)
+  d-sl-opendays-spin37:
+    name: Spinner 37 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 96g disk of size ⌀:55mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
-  d-sl-everyone-spin38:
-    name: Spinner 38 (Everyone)
+  d-sl-opendays-spin38:
+    name: Spinner 38 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 133g disk of size ⌀:50mm t:25mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin39:
-    name: Spinner 39 (Everyone)
+  d-sl-opendays-spin39:
+    name: Spinner 39 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 90g disk of size ⌀:65mm t:10mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-    
-  d-sl-everyone-spin40:
-    name: Spinner 40 (Everyone)
+  d-sl-opendays-spin40:
+    name: Spinner 40 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 128g disk of size ⌀:55mm t:20mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin41:
-    name: Spinner 41 (Everyone)
+  d-sl-opendays-spin41:
+    name: Spinner 41 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 115g disk of size ⌀:60mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin42:
-    name: Spinner 42 (Everyone)
+  d-sl-opendays-spin42:
+    name: Spinner 42 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 68g disk of size ⌀:40mm t:20mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin43:
-    name: Spinner 43 (Everyone)
+  d-sl-opendays-spin43:
+    name: Spinner 43 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 102g disk of size ⌀:40mm t:30mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin44:
-    name: Spinner 44 (Everyone)
+  d-sl-opendays-spin44:
+    name: Spinner 44 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 86g disk of size ⌀:45mm t:20mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin45:
-    name: Spinner 45 (Everyone)
+  d-sl-opendays-spin45:
+    name: Spinner 45 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 64g disk of size ⌀:55mm t:10mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin46:
-    name: Spinner 46 (Everyone)
+  d-sl-opendays-spin46:
+    name: Spinner 46 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 80g disk of size ⌀:50mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin47:
-    name: Spinner 47 (Everyone)
+  d-sl-opendays-spin47:
+    name: Spinner 47 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 106g disk of size ⌀:50mm t:20mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
-  d-sl-everyone-spin48:
-    name: Spinner 48 (Everyone)
+  d-sl-opendays-spin48:
+    name: Spinner 48 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 76g disk of size ⌀:60mm t:10mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin49:
-    name: Spinner 49 (Everyone)
+  d-sl-opendays-spin49:
+    name: Spinner 49 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 96g disk of size ⌀:55mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-
-  d-sl-everyone-spin50:
-    name: Spinner 50 (Everyone)
+  d-sl-opendays-spin50:
+    name: Spinner 50 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 133g disk of size ⌀:50mm t:25mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin51:
-    name: Spinner 51 (Everyone)
+  d-sl-opendays-spin51:
+    name: Spinner 51 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 90g disk of size ⌀:65mm t:10mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin52:
-    name: Spinner 52 (Everyone)
+  d-sl-opendays-spin52:
+    name: Spinner 52 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 128g disk of size ⌀:55mm t:20mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin53:
-    name: Spinner 53 (Everyone)
+  d-sl-opendays-spin53:
+    name: Spinner 53 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 115g disk of size ⌀:60mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin54:
-    name: Spinner 54 (Everyone)
+  d-sl-opendays-spin54:
+    name: Spinner 54 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 68g disk of size ⌀:40mm t:20mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin55:
-    name: Spinner 55 (Everyone)
+  d-sl-opendays-spin55:
+    name: Spinner 55 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 102g disk of size ⌀:40mm t:30mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin56:
-    name: Spinner 56 (Everyone)
+  d-sl-opendays-spin56:
+    name: Spinner 56 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 86g disk of size ⌀:45mm t:20mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin57:
-    name: Spinner 57 (Everyone)
+  d-sl-opendays-spin57:
+    name: Spinner 57 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 64g disk of size ⌀:55mm t:10mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
-  d-sl-everyone-spin58:
-    name: Spinner 58 (Everyone)
+  d-sl-opendays-spin58:
+    name: Spinner 58 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 80g disk of size ⌀:50mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin59:
-    name: Spinner 59 (Everyone)
+  d-sl-opendays-spin59:
+    name: Spinner 59 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 106g disk of size ⌀:50mm t:20mm 
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
-
-  d-sl-everyone-spin60:
-    name: Spinner 60 (Everyone)
+  d-sl-opendays-spin60:
+    name: Spinner 60 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 76g disk of size ⌀:60mm t:10mm 
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin61:
-    name: Spinner 61 (Everyone)
+  d-sl-opendays-spin61:
+    name: Spinner 61 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 96g disk of size ⌀:55mm t:15mm 
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin62:
-    name: Spinner 62 (Everyone)
+  d-sl-opendays-spin62:
+    name: Spinner 62 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 133g disk of size ⌀:50mm t:25mm 
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin63:
-    name: Spinner 63 (Everyone)
+  d-sl-opendays-spin63:
+    name: Spinner 63 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 90g disk of size ⌀:65mm t:10mm 
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin64:
-    name: Spinner 64 (Everyone)
+  d-sl-opendays-spin64:
+    name: Spinner 64 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 128g disk of size ⌀:55mm t:20mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin65:
-    name: Spinner 65 (Everyone)
+  d-sl-opendays-spin65:
+    name: Spinner 65 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 115g disk of size ⌀:60mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin66:
-    name: Spinner 66 (Everyone)
+  d-sl-opendays-spin66:
+    name: Spinner 66 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 68g disk of size ⌀:40mm t:20mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin67:
-    name: Spinner 67 (Everyone)
+  d-sl-opendays-spin67:
+    name: Spinner 67 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 102g disk of size ⌀:40mm t:30mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png    
-  d-sl-everyone-spin68:
-    name: Spinner 68 (Everyone)
+  d-sl-opendays-spin68:
+    name: Spinner 68 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 86g disk of size ⌀:45mm t:20mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin69:
-    name: Spinner 69 (Everyone)
+  d-sl-opendays-spin69:
+    name: Spinner 69 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 64g disk of size ⌀:55mm t:10mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-
-  d-sl-everyone-spin70:
-    name: Spinner 70 (Everyone)
+  d-sl-opendays-spin70:
+    name: Spinner 70 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 80g disk of size ⌀:50mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin71:
-    name: Spinner 71 (Everyone)
+  d-sl-opendays-spin71:
+    name: Spinner 71 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 106g disk of size ⌀:50mm t:20mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin72:
-    name: Spinner 72 (Everyone)
+  d-sl-opendays-spin72:
+    name: Spinner 72 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 76g disk of size ⌀:60mm t:10mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin73:
-    name: Spinner 73 (Everyone)
+  d-sl-opendays-spin73:
+    name: Spinner 73 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 96g disk of size ⌀:55mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin74:
-    name: Spinner 74 (Everyone)
+  d-sl-opendays-spin74:
+    name: Spinner 74 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 133g disk of size ⌀:50mm t:25mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin75:
-    name: Spinner 75 (Everyone)
+  d-sl-opendays-spin75:
+    name: Spinner 75 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 90g disk of size ⌀:65mm t:10mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin76:
-    name: Spinner 76 (Everyone)
+  d-sl-opendays-spin76:
+    name: Spinner 76 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 128g disk of size ⌀:55mm t:20mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png
-  d-sl-everyone-spin77:
-    name: Spinner 77 (Everyone)
+  d-sl-opendays-spin77:
+    name: Spinner 77 (Open Days)
     type: slot
     short: A PID-controlled brushed motor with 115g disk of size ⌀:60mm t:15mm
     image: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/image.png
     thumb: https://dev.practable.io/static/images/booking/slots/spinner-real-2.0/thumb.png     
 
-  d-sl-everyone-trus00:
-    name: Truss 00 (Everyone)
-    type: slot
-    short: A six-member truss with linear actuator and strain gauges
-    image: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/thumb.png 
-  d-sl-everyone-trus01:
-    name: Truss 01 (Everyone)
-    type: slot
-    short: A six-member truss with linear actuator and strain gauges
-    image: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/slots/truss-real-1.0/thumb.png    
+  # User Interfaces
   d-ui-pend-student:
     name: Pendulum (Student)
     type: ui
@@ -1997,7 +2489,7 @@ descriptions:
     type: ui
     short: Analytics UI for student use
     image: https://dev.practable.io/static/images/booking/ui/analytics-spin-1.0/image.png
-    thumb: https://dev.practable.io/static/images/booking/ui/analytics-spin-1.0/thumb.png 
+    thumb: https://dev.practable.io/static/images/booking/ui/analytics-spin-1.0/thumb.png
 display_guides:
   5mFor20m:
     book_ahead: 20m
@@ -2009,11 +2501,26 @@ display_guides:
     duration: 15m
     max_slots: 10
     label: 15 min
+  15mFor2h:
+    book_ahead: 2h
+    duration: 15m
+    max_slots: 9
+    label: 15 min    
   30mFor2h:
     book_ahead: 2h
     duration: 30m
-    max_slots: 10
+    max_slots: 5
     label: 30 min
+  30mFor4h:
+    book_ahead: 4h
+    duration: 30m
+    max_slots: 9
+    label: 30 min
+  30mFor8h:
+    book_ahead: 8h
+    duration: 30m
+    max_slots: 17
+    label: 30 min     
   1hFor2h:
     book_ahead: 2h
     duration: 1h
@@ -2044,6 +2551,11 @@ groups:
     policies:
       - p-engdes1-lab-pend
       - p-engdes1-lab-spin
+  g-opendays:
+    description: d-g-opendays
+    policies:
+      - p-opendays-pend
+      - p-opendays-spin
 policies:
   p-quarantine:
     description: d-p-quarantine
@@ -2316,7 +2828,99 @@ policies:
       - sl-engdes1-spin66
       - sl-engdes1-spin67       
       - sl-engdes1-spin68  
-      
+  p-opendays-pend:
+    description: d-p-opendays-pend
+    enforce_allow_start_in_past: true
+    allow_start_in_past_within: 5m
+    enforce_max_bookings: true
+    max_bookings: 2
+    display_guides:
+      - 5mFor20m
+      - 15mFor2h
+      - 30mFor8h
+    slots:
+      - sl-opendays-pend00
+      - sl-opendays-pend02
+      - sl-opendays-pend03
+      - sl-opendays-pend04
+      - sl-opendays-pend05
+      - sl-opendays-pend06
+      - sl-opendays-pend07
+      - sl-opendays-pend08
+      - sl-opendays-pend09
+      - sl-opendays-pend10
+      - sl-opendays-pend11
+      - sl-opendays-pend12
+      - sl-opendays-pend13
+      - sl-opendays-pend14
+      - sl-opendays-pend15
+      - sl-opendays-pend16
+      - sl-opendays-pend17
+      - sl-opendays-pend20
+      - sl-opendays-pend21
+      - sl-opendays-pend22
+      - sl-opendays-pend23
+      - sl-opendays-pend26
+      - sl-opendays-pend27
+      - sl-opendays-pend28
+      - sl-opendays-pend29
+      - sl-opendays-pend31
+      - sl-opendays-pend33
+      - sl-opendays-pend34
+      - sl-opendays-pend35
+      - sl-opendays-pend36
+      - sl-opendays-pend37      
+  p-opendays-spin:
+    description: d-p-opendays-spin
+    enforce_allow_start_in_past: true
+    enforce_max_bookings: true
+    max_bookings: 2
+    allow_start_in_past_within: 5m
+    display_guides:
+      - 5mFor20m
+      - 15mFor2h
+      - 30mFor8h
+    slots:
+      - sl-opendays-spin30
+      - sl-opendays-spin32
+      - sl-opendays-spin33
+      - sl-opendays-spin34
+      - sl-opendays-spin35
+      - sl-opendays-spin36
+      - sl-opendays-spin37       
+      - sl-opendays-spin38
+      - sl-opendays-spin39
+      - sl-opendays-spin40
+      - sl-opendays-spin41
+      - sl-opendays-spin46
+      - sl-opendays-spin47       
+      - sl-opendays-spin48
+      - sl-opendays-spin49
+      - sl-opendays-spin51
+      - sl-opendays-spin52
+      - sl-opendays-spin53
+      - sl-opendays-spin54
+      - sl-opendays-spin55
+      - sl-opendays-spin56
+      - sl-opendays-spin57       
+      - sl-opendays-spin58
+      - sl-opendays-spin59
+      - sl-opendays-spin60
+      - sl-opendays-spin61
+      - sl-opendays-spin62
+      - sl-opendays-spin63
+      - sl-opendays-spin65
+      - sl-opendays-spin66
+      - sl-opendays-spin67       
+      - sl-opendays-spin68
+      - sl-opendays-spin70
+      - sl-opendays-spin71
+      - sl-opendays-spin72
+      - sl-opendays-spin73
+      - sl-opendays-spin74
+      - sl-opendays-spin75
+      - sl-opendays-spin76
+      - sl-opendays-spin77      
 resources:
   r-pend00:
     description: d-r-pendulum-standard
@@ -4504,7 +5108,519 @@ slots:
     resource: r-spin77
     ui_set: us-spin-engdes1
     window: w-spin-engdes1
-    
+
+  # Open Days slots
+  sl-opendays-pend00:
+    description: d-sl-opendays-pend00 
+    policy: p-opendays-pend 
+    resource: r-pend00
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend01:
+    description: d-sl-opendays-pend01 
+    policy: p-opendays-pend
+    resource: r-pend01
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend02:
+    description: d-sl-opendays-pend02 
+    policy: p-opendays-pend
+    resource: r-pend02
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend03:
+    description: d-sl-opendays-pend03 
+    policy: p-opendays-pend
+    resource: r-pend03
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend04:
+    description: d-sl-opendays-pend04 
+    policy: p-opendays-pend
+    resource: r-pend04
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend05:
+    description: d-sl-opendays-pend05 
+    policy: p-opendays-pend
+    resource: r-pend05
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend06:
+    description: d-sl-opendays-pend06 
+    policy: p-opendays-pend
+    resource: r-pend06
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend07:
+    description: d-sl-opendays-pend07 
+    policy: p-opendays-pend
+    resource: r-pend07
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend08:
+    description: d-sl-opendays-pend08 
+    policy: p-opendays-pend
+    resource: r-pend08
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend09:
+    description: d-sl-opendays-pend09 
+    policy: p-opendays-pend
+    resource: r-pend09
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend10:
+    description: d-sl-opendays-pend10 
+    policy: p-opendays-pend 
+    resource: r-pend10
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend11:
+    description: d-sl-opendays-pend11 
+    policy: p-opendays-pend
+    resource: r-pend11
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend12:
+    description: d-sl-opendays-pend12 
+    policy: p-opendays-pend
+    resource: r-pend12
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend13:
+    description: d-sl-opendays-pend13 
+    policy: p-opendays-pend
+    resource: r-pend13
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend14:
+    description: d-sl-opendays-pend14 
+    policy: p-opendays-pend
+    resource: r-pend14
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend15:
+    description: d-sl-opendays-pend15 
+    policy: p-opendays-pend
+    resource: r-pend15
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend16:
+    description: d-sl-opendays-pend16 
+    policy: p-opendays-pend
+    resource: r-pend16
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend17:
+    description: d-sl-opendays-pend17 
+    policy: p-opendays-pend
+    resource: r-pend17
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-q-opendays-pend18:
+    description: d-sl-opendays-pend18 
+    policy: p-quarantine
+    resource: r-pend18
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-q-opendays-pend19:
+    description: d-sl-opendays-pend19 
+    policy: p-quarantine
+    resource: r-pend19
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend20:
+    description: d-sl-opendays-pend20 
+    policy: p-opendays-pend 
+    resource: r-pend20
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend21:
+    description: d-sl-opendays-pend21 
+    policy: p-opendays-pend
+    resource: r-pend21
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend22:
+    description: d-sl-opendays-pend22 
+    policy: p-opendays-pend
+    resource: r-pend22
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend23:
+    description: d-sl-opendays-pend23 
+    policy: p-opendays-pend
+    resource: r-pend23
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend24:
+    description: d-sl-opendays-pend24 
+    policy: p-opendays-pend
+    resource: r-pend24
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend26:
+    description: d-sl-opendays-pend26 
+    policy: p-opendays-pend
+    resource: r-pend26
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend27:
+    description: d-sl-opendays-pend27 
+    policy: p-opendays-pend
+    resource: r-pend27
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend28:
+    description: d-sl-opendays-pend28 
+    policy: p-opendays-pend
+    resource: r-pend28
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend29:
+    description: d-sl-opendays-pend29 
+    policy: p-opendays-pend
+    resource: r-pend29
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend30:
+    description: d-sl-opendays-pend30 
+    policy: p-opendays-pend 
+    resource: r-pend30
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend31:
+    description: d-sl-opendays-pend31 
+    policy: p-opendays-pend
+    resource: r-pend31
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend32:
+    description: d-sl-opendays-pend32 
+    policy: p-opendays-pend
+    resource: r-pend32
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend33:
+    description: d-sl-opendays-pend33 
+    policy: p-opendays-pend
+    resource: r-pend33
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend34:
+    description: d-sl-opendays-pend34 
+    policy: p-opendays-pend
+    resource: r-pend34
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend35:
+    description: d-sl-opendays-pend35 
+    policy: p-opendays-pend
+    resource: r-pend35
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend36:
+    description: d-sl-opendays-pend36 
+    policy: p-opendays-pend
+    resource: r-pend36
+    ui_set: us-pend-opendays
+    window: w-pend-opendays
+  sl-opendays-pend37:
+    description: d-sl-opendays-pend37 
+    policy: p-opendays-pend
+    resource: r-pend37
+    ui_set: us-pend-opendays
+    window: w-pend-opendays    
+  sl-opendays-spin30:
+    description: d-sl-opendays-spin30 
+    policy: p-opendays-spin 
+    resource: r-spin30
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin31:
+    description: d-sl-opendays-spin31 
+    policy: p-opendays-spin 
+    resource: r-spin31
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin32:
+    description: d-sl-opendays-spin32 
+    policy: p-opendays-spin 
+    resource: r-spin32
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin33:
+    description: d-sl-opendays-spin33 
+    policy: p-opendays-spin 
+    resource: r-spin33
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin34:
+    description: d-sl-opendays-spin34 
+    policy: p-opendays-spin 
+    resource: r-spin34
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin35:
+    description: d-sl-opendays-spin35 
+    policy: p-opendays-spin 
+    resource: r-spin35
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin36:
+    description: d-sl-opendays-spin36 
+    policy: p-opendays-spin 
+    resource: r-spin36
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin37:
+    description: d-sl-opendays-spin37 
+    policy: p-opendays-spin 
+    resource: r-spin37
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin38:
+    description: d-sl-opendays-spin38 
+    policy: p-opendays-spin 
+    resource: r-spin38
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin39:
+    description: d-sl-opendays-spin39 
+    policy: p-opendays-spin 
+    resource: r-spin39
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin40:
+    description: d-sl-opendays-spin40 
+    policy: p-opendays-spin 
+    resource: r-spin40
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin41:
+    description: d-sl-opendays-spin41 
+    policy: p-opendays-spin 
+    resource: r-spin41
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin42:
+    description: d-sl-opendays-spin42 
+    policy: p-opendays-spin 
+    resource: r-spin42
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin43:
+    description: d-sl-opendays-spin43 
+    policy: p-opendays-spin 
+    resource: r-spin43
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin44:
+    description: d-sl-opendays-spin44 
+    policy: p-opendays-spin 
+    resource: r-spin44
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin45:
+    description: d-sl-opendays-spin45 
+    policy: p-opendays-spin 
+    resource: r-spin45
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin46:
+    description: d-sl-opendays-spin46 
+    policy: p-opendays-spin 
+    resource: r-spin46
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin47:
+    description: d-sl-opendays-spin47 
+    policy: p-opendays-spin 
+    resource: r-spin47
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin48:
+    description: d-sl-opendays-spin48 
+    policy: p-opendays-spin 
+    resource: r-spin48
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin49:
+    description: d-sl-opendays-spin49 
+    policy: p-opendays-spin 
+    resource: r-spin49
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin50:
+    description: d-sl-opendays-spin50 
+    policy: p-opendays-spin 
+    resource: r-spin50
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin51:
+    description: d-sl-opendays-spin51 
+    policy: p-opendays-spin 
+    resource: r-spin51
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin52:
+    description: d-sl-opendays-spin52 
+    policy: p-opendays-spin 
+    resource: r-spin52
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin53:
+    description: d-sl-opendays-spin53 
+    policy: p-opendays-spin 
+    resource: r-spin53
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin54:
+    description: d-sl-opendays-spin54 
+    policy: p-opendays-spin 
+    resource: r-spin54
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin55:
+    description: d-sl-opendays-spin55 
+    policy: p-opendays-spin 
+    resource: r-spin55
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin56:
+    description: d-sl-opendays-spin56 
+    policy: p-opendays-spin 
+    resource: r-spin56
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin57:
+    description: d-sl-opendays-spin57 
+    policy: p-opendays-spin 
+    resource: r-spin57
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin58:
+    description: d-sl-opendays-spin58 
+    policy: p-opendays-spin 
+    resource: r-spin58
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin59:
+    description: d-sl-opendays-spin59 
+    policy: p-opendays-spin 
+    resource: r-spin59
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin60:
+    description: d-sl-opendays-spin60 
+    policy: p-opendays-spin 
+    resource: r-spin60
+    ui_set: us-spin-opendays
+    window: w-spin-opendays    
+  sl-opendays-spin61:
+    description: d-sl-opendays-spin61 
+    policy: p-opendays-spin 
+    resource: r-spin61
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin62:
+    description: d-sl-opendays-spin62 
+    policy: p-opendays-spin 
+    resource: r-spin62
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin63:
+    description: d-sl-opendays-spin63 
+    policy: p-opendays-spin 
+    resource: r-spin63
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin64:
+    description: d-sl-opendays-spin64 
+    policy: p-opendays-spin 
+    resource: r-spin64
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin65:
+    description: d-sl-opendays-spin65 
+    policy: p-opendays-spin 
+    resource: r-spin65
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin66:
+    description: d-sl-opendays-spin66 
+    policy: p-opendays-spin 
+    resource: r-spin66
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin67:
+    description: d-sl-opendays-spin67 
+    policy: p-opendays-spin 
+    resource: r-spin67
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin68:
+    description: d-sl-opendays-spin68 
+    policy: p-opendays-spin 
+    resource: r-spin68
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin69:
+    description: d-sl-opendays-spin69 
+    policy: p-opendays-spin 
+    resource: r-spin69
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin70:
+    description: d-sl-opendays-spin70 
+    policy: p-opendays-spin 
+    resource: r-spin70
+    ui_set: us-spin-opendays
+    window: w-spin-opendays    
+  sl-opendays-spin71:
+    description: d-sl-opendays-spin71 
+    policy: p-opendays-spin 
+    resource: r-spin71
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin72:
+    description: d-sl-opendays-spin72 
+    policy: p-opendays-spin 
+    resource: r-spin72
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin73:
+    description: d-sl-opendays-spin73 
+    policy: p-opendays-spin 
+    resource: r-spin73
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin74:
+    description: d-sl-opendays-spin74 
+    policy: p-opendays-spin 
+    resource: r-spin74
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin75:
+    description: d-sl-opendays-spin75 
+    policy: p-opendays-spin 
+    resource: r-spin75
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin76:
+    description: d-sl-opendays-spin76 
+    policy: p-opendays-spin 
+    resource: r-spin76
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+  sl-opendays-spin77:
+    description: d-sl-opendays-spin77 
+    policy: p-opendays-spin 
+    resource: r-spin77
+    ui_set: us-spin-opendays
+    window: w-spin-opendays
+
     
 streams:
   log:
@@ -4569,6 +5685,20 @@ uis:
       - st-data
       - st-video
       - log
+  ui-pend-opendays:
+    description: d-ui-pend-student
+    url: https://dev.practable.io/static/ui/penduino-1.0/?streams={{streams}}&exp={{exp}}&course=opendays
+    streams_required:
+      - st-data
+      - st-video
+      - log
+  ui-spin-opendays:
+    description: d-ui-spin-student
+    url: https://dev.practable.io/static/ui/spinner-2.0/?v=0&streams={{streams}}&exp={{exp}}&course=opendays
+    streams_required:
+      - st-data
+      - st-video
+      - log
   ui-trus-everyone:
     description: d-ui-trus-student
     url: https://dev.practable.io/static/ui/truss-1.0/?streams={{streams}}&exp={{exp}}&course=everyone
@@ -4588,6 +5718,9 @@ ui_sets:
   us-pend-everyone:
     uis:
       - ui-pend-everyone
+  us-pend-opendays:
+    uis:
+      - ui-pend-opendays
   us-spin-engdes1-lab:
     uis:
       - ui-spin-engdes1
@@ -4599,6 +5732,9 @@ ui_sets:
   us-spin-everyone:
     uis:
       - ui-spin-everyone
+  us-spin-opendays:
+    uis:
+      - ui-spin-opendays
   us-trus-everyone:
     uis:
       - ui-trus-everyone 
@@ -4608,31 +5744,29 @@ windows:
       - start: 2023-02-04T00:00:00Z
         end: 2024-02-04T00:00:00Z
     denied:
-      - start: 2023-02-24T10:00:00Z
-        end:   2023-02-24T12:00:00Z
-      - start: 2023-02-27T14:00:00Z
-        end:   2023-02-27T18:00:00Z
-      - start: 2023-02-28T14:00:00Z
-        end:   2023-02-28T18:00:00Z
-      - start: 2023-03-13T14:00:00Z
-        end:   2023-03-13T18:00:00Z
-      - start: 2023-03-19T14:00:00Z
-        end:   2023-03-19T18:00:00Z 
+      - start: 2023-03-30T09:00:00Z
+        end:   2023-03-30T10:00:00Z
+      - start: 2023-03-31T09:00:00Z
+        end:   2023-03-31T10:00:00Z
   w-spin-everyone:
     allowed:
       - start: 2023-02-04T00:00:00Z
         end: 2024-02-04T00:00:00Z
     denied:
-      - start: 2023-02-24T10:00:00Z
-        end:   2023-02-24T12:00:00Z
-      - start: 2023-02-27T14:00:00Z
-        end:   2023-02-27T18:00:00Z
-      - start: 2023-02-28T14:00:00Z
-        end:   2023-02-28T18:00:00Z
-      - start: 2023-03-13T14:00:00Z
-        end:   2023-03-13T18:00:00Z
-      - start: 2023-03-19T14:00:00Z
-        end:   2023-03-19T18:00:00Z 
+      - start: 2023-03-30T09:00:00Z
+        end:   2023-03-30T10:00:00Z
+      - start: 2023-03-31T09:00:00Z
+        end:   2023-03-31T10:00:00Z 
+  w-pend-opendays:
+    allowed:
+      - start: 2023-03-28T00:00:00Z
+        end: 2023-04-03T09:00:00Z
+    denied:
+  w-spin-opendays:
+    allowed:
+      - start: 2023-03-28T00:00:00Z
+        end: 2023-04-03T09:00:00Z
+    denied:
   w-trus-everyone:
     allowed:
       - start: 2023-02-04T00:00:00Z
