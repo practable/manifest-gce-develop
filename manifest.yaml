@@ -2551,7 +2551,7 @@ groups:
     policies:
       - p-engdes1-lab-pend
       - p-engdes1-lab-spin
-  g-opendays-y4dU0k:
+  g-opendays-k8ds2D:
     description: d-g-opendays
     policies:
       - p-opendays-pend
@@ -5744,28 +5744,40 @@ windows:
       - start: 2023-02-04T00:00:00Z
         end: 2024-02-04T00:00:00Z
     denied:
-      - start: 2023-03-30T09:00:00Z
-        end:   2023-03-30T10:00:00Z
-      - start: 2023-03-31T09:00:00Z
-        end:   2023-03-31T10:00:00Z
+      - start: 2023-05-08T15:00:00Z
+        end:   2023-05-08T16:00:00Z
+      - start: 2023-05-09T15:00:00Z
+        end:   2023-05-09T16:00:00Z
+      - start: 2023-05-10T15:00:00Z
+        end:   2023-05-10T16:00:00Z
+      - start: 2023-05-11T15:00:00Z
+        end:   2023-05-11T16:00:00Z
+      - start: 2023-05-12T15:00:00Z
+        end:   2023-05-12T16:00:00Z 
   w-spin-everyone:
     allowed:
       - start: 2023-02-04T00:00:00Z
         end: 2024-02-04T00:00:00Z
     denied:
-      - start: 2023-03-30T09:00:00Z
-        end:   2023-03-30T10:00:00Z
-      - start: 2023-03-31T09:00:00Z
-        end:   2023-03-31T10:00:00Z 
+      - start: 2023-05-08T15:00:00Z
+        end:   2023-05-08T16:00:00Z
+      - start: 2023-05-09T15:00:00Z
+        end:   2023-05-09T16:00:00Z
+      - start: 2023-05-10T15:00:00Z
+        end:   2023-05-10T16:00:00Z
+      - start: 2023-05-11T15:00:00Z
+        end:   2023-05-11T16:00:00Z
+      - start: 2023-05-12T15:00:00Z
+        end:   2023-05-12T16:00:00Z        
   w-pend-opendays:
     allowed:
-      - start: 2023-03-28T00:00:00Z
-        end: 2023-04-03T09:00:00Z
+      - start: 2023-05-08T00:00:00Z
+        end: 2023-05-14T09:00:00Z
     denied:
   w-spin-opendays:
     allowed:
-      - start: 2023-03-28T00:00:00Z
-        end: 2023-04-03T09:00:00Z
+      - start: 2023-05-08T00:00:00Z
+        end: 2023-05-14T09:00:00Z
     denied:
   w-trus-everyone:
     allowed:
