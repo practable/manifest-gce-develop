@@ -5770,7 +5770,7 @@ windows:
       - start: 2023-05-12T15:00:00Z
         end:   2023-05-12T16:00:00Z
       - start: 2023-06-19T15:00:00Z
-        end:   2023-06-22T09:00:00Z        
+        end:   2023-06-27T09:00:00Z        
   w-pend-opendays:
     allowed:
       - start: 2023-05-08T00:00:00Z
