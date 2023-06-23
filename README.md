@@ -1,9 +1,23 @@
 # manifest-gce-develop
 Manifest for the gce-develop system (dev.practable.io)
 
+
+## Usage
+
+To upload the current manifest 
+
+```
+git clone https://github.com/practable/manifest-gce-develop
+cd manifest-gce-develop
+./check.sh # no output if check passes, else error messages
+# only proceed to next step if check passes 
+./upload.sh
+```
+
+
 ## Pre-requisites
 
-Install yamllint to be able to use our (slightly-tuned) check script `./check.sh`
+1. Install yamllint to be able to use our (slightly-tuned) check script `./check.sh`
 ```
 sudo apt-get install yamllint
 ```
@@ -12,6 +26,14 @@ We've disabled checks on
 
 - line length (some descriptions are long)
 - spaces after colons (lining up times in the windows helps sanity checking)
+
+
+2. Check out credentials and symlink to `~/secret` 
+
+Your credentials repo will be indicated by your system administrator.
+
+The example repo is [here](https://github.com/practable/credentials-example)
+
 
 ## Naming scheme
 
