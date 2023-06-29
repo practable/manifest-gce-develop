@@ -2578,37 +2578,9 @@ policies:
       - 5mFor20m
       - 15mFor1h
     slots:
-      - sl-everyone-pend00
-      - sl-everyone-pend02
-      - sl-everyone-pend03
-      - sl-everyone-pend04
-      - sl-everyone-pend05
-      - sl-everyone-pend06
-      - sl-everyone-pend07
-      - sl-everyone-pend08
-      - sl-everyone-pend09
-      - sl-everyone-pend10
-      - sl-everyone-pend11
-      - sl-everyone-pend12
-      - sl-everyone-pend13
-      - sl-everyone-pend14
-      - sl-everyone-pend15
-      - sl-everyone-pend16
-      - sl-everyone-pend17
-      - sl-everyone-pend20
-      - sl-everyone-pend21
-      - sl-everyone-pend22
-      - sl-everyone-pend23
-      - sl-everyone-pend26
-      - sl-everyone-pend27
-      - sl-everyone-pend28
-      - sl-everyone-pend29
-      - sl-everyone-pend31
-      - sl-everyone-pend33
       - sl-everyone-pend34
       - sl-everyone-pend35
-      - sl-everyone-pend36
-      - sl-everyone-pend37      
+     
   p-everyone-spin:
     description: d-p-everyone-spin
     enforce_allow_start_in_past: true
