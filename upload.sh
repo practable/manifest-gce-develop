@@ -6,7 +6,7 @@ export BOOK_CLIENT_TOKEN_ADMIN=true
 export BOOK_CLIENT_TOKEN_AUD=https://dev.practable.io/book
 export BOOK_CLIENT_TOKEN_SUB=admin
 
-export BOOK_CLIENT_TOKEN=$(../admin-tools/gce-develop/bin/book token)
+export BOOK_CLIENT_TOKEN=$(../admin-tools-legacy/gce-develop/bin/book token)
 export BOOK_CLIENT_SCHEME=https
 export BOOK_CLIENT_HOST=dev.practable.io
 export BOOK_CLIENT_BASE_PATH=/book/api/v1
@@ -19,4 +19,4 @@ if ! [ $c -eq 0 ]; then
 		exit 1
 fi
 
-../admin-tools/gce-develop/bin/book manifest replace manifest.yaml
+../admin-tools-legacy/gce-develop/bin/book manifest replace manifest.yaml
