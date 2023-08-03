@@ -2564,11 +2564,28 @@ policies:
       - 5mFor20m
       - 15mFor1h
     slots:
+      - sl-q-everyone-pend03
+      - sl-q-everyone-pend09
+      - sl-q-everyone-pend10
+      - sl-q-everyone-pend11
+      - sl-q-everyone-pend12
+      - sl-q-everyone-pend13      
+      - sl-q-everyone-pend14
+      - sl-q-everyone-pend15
+      - sl-q-everyone-pend16
       - sl-q-everyone-pend18
       - sl-q-everyone-pend19
-      - sl-q-engdes1-lab-pend18
-      - sl-q-engdes1-lab-pend19
-      
+      - sl-q-everyone-pend20
+      - sl-q-everyone-pend21
+      - sl-q-everyone-pend22
+      - sl-q-everyone-pend27
+      - sl-q-everyone-pend31
+      - sl-q-everyone-pend32
+      - sl-q-everyone-pend33
+      - sl-q-everyone-pend34
+      - sl-q-everyone-pend35
+      - sl-q-everyone-pend37
+   
   p-everyone-pend:
     description: d-p-everyone-pend
     enforce_allow_start_in_past: true
@@ -3619,15 +3636,15 @@ slots:
     resource: r-pend17
     ui_set: us-pend-everyone
     window: w-pend-everyone
-  sl-q-everyone-pend18:
+  sl-everyone-pend18:
     description: d-sl-everyone-pend18 
-    policy: p-quarantine
+    policy: p-everyone-pend
     resource: r-pend18
     ui_set: us-pend-everyone
     window: w-pend-everyone
-  sl-q-everyone-pend19:
+  sl-everyone-pend19:
     description: d-sl-everyone-pend19 
-    policy: p-quarantine
+    policy: p-everyone-pend
     resource: r-pend19
     ui_set: us-pend-everyone
     window: w-pend-everyone
@@ -3732,7 +3749,231 @@ slots:
     policy: p-everyone-pend
     resource: r-pend37
     ui_set: us-pend-everyone
+    window: w-pend-everyone
+
+  sl-q-everyone-pend00:
+    description: d-sl-everyone-pend00 
+    policy: p-quarantine 
+    resource: r-pend00
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend01:
+    description: d-sl-everyone-pend01 
+    policy: p-quarantine
+    resource: r-pend01
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend02:
+    description: d-sl-everyone-pend02 
+    policy: p-quarantine
+    resource: r-pend02
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend03:
+    description: d-sl-everyone-pend03 
+    policy: p-quarantine
+    resource: r-pend03
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend04:
+    description: d-sl-everyone-pend04 
+    policy: p-quarantine
+    resource: r-pend04
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend05:
+    description: d-sl-everyone-pend05 
+    policy: p-quarantine
+    resource: r-pend05
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend06:
+    description: d-sl-everyone-pend06 
+    policy: p-quarantine
+    resource: r-pend06
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend07:
+    description: d-sl-everyone-pend07 
+    policy: p-quarantine
+    resource: r-pend07
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend08:
+    description: d-sl-everyone-pend08 
+    policy: p-quarantine
+    resource: r-pend08
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend09:
+    description: d-sl-everyone-pend09 
+    policy: p-quarantine
+    resource: r-pend09
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend10:
+    description: d-sl-everyone-pend10 
+    policy: p-quarantine 
+    resource: r-pend10
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend11:
+    description: d-sl-everyone-pend11 
+    policy: p-quarantine
+    resource: r-pend11
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend12:
+    description: d-sl-everyone-pend12 
+    policy: p-quarantine
+    resource: r-pend12
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend13:
+    description: d-sl-everyone-pend13 
+    policy: p-quarantine
+    resource: r-pend13
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend14:
+    description: d-sl-everyone-pend14 
+    policy: p-quarantine
+    resource: r-pend14
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend15:
+    description: d-sl-everyone-pend15 
+    policy: p-quarantine
+    resource: r-pend15
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend16:
+    description: d-sl-everyone-pend16 
+    policy: p-quarantine
+    resource: r-pend16
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend17:
+    description: d-sl-everyone-pend17 
+    policy: p-quarantine
+    resource: r-pend17
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend18:
+    description: d-sl-everyone-pend18 
+    policy: p-quarantine
+    resource: r-pend18
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend19:
+    description: d-sl-everyone-pend19 
+    policy: p-quarantine
+    resource: r-pend19
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend20:
+    description: d-sl-everyone-pend20 
+    policy: p-quarantine 
+    resource: r-pend20
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend21:
+    description: d-sl-everyone-pend21 
+    policy: p-quarantine
+    resource: r-pend21
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend22:
+    description: d-sl-everyone-pend22 
+    policy: p-quarantine
+    resource: r-pend22
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend23:
+    description: d-sl-everyone-pend23 
+    policy: p-quarantine
+    resource: r-pend23
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend24:
+    description: d-sl-everyone-pend24 
+    policy: p-quarantine
+    resource: r-pend24
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend26:
+    description: d-sl-everyone-pend26 
+    policy: p-quarantine
+    resource: r-pend26
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend27:
+    description: d-sl-everyone-pend27 
+    policy: p-quarantine
+    resource: r-pend27
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend28:
+    description: d-sl-everyone-pend28 
+    policy: p-quarantine
+    resource: r-pend28
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend29:
+    description: d-sl-everyone-pend29 
+    policy: p-quarantine
+    resource: r-pend29
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend30:
+    description: d-sl-everyone-pend30 
+    policy: p-quarantine 
+    resource: r-pend30
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend31:
+    description: d-sl-everyone-pend31 
+    policy: p-quarantine
+    resource: r-pend31
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend32:
+    description: d-sl-everyone-pend32 
+    policy: p-quarantine
+    resource: r-pend32
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend33:
+    description: d-sl-everyone-pend33 
+    policy: p-quarantine
+    resource: r-pend33
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend34:
+    description: d-sl-everyone-pend34 
+    policy: p-quarantine
+    resource: r-pend34
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend35:
+    description: d-sl-everyone-pend35 
+    policy: p-quarantine
+    resource: r-pend35
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend36:
+    description: d-sl-everyone-pend36 
+    policy: p-quarantine
+    resource: r-pend36
+    ui_set: us-pend-everyone
+    window: w-pend-everyone
+  sl-q-everyone-pend37:
+    description: d-sl-everyone-pend37 
+    policy: p-quarantine
+    resource: r-pend37
+    ui_set: us-pend-everyone
     window: w-pend-everyone    
+    
   sl-everyone-spin30:
     description: d-sl-everyone-spin30 
     policy: p-everyone-spin 
